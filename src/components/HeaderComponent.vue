@@ -270,7 +270,7 @@ header {
             text-transform: uppercase;
             font-weight: 500;
             font-size: 0.6rem;
-            padding-right: 0.5rem;
+            // padding-right: 0.rem;
             cursor: pointer;
         }
 
@@ -280,7 +280,7 @@ header {
                 font-size: 0.75rem;
                 padding: 0.5rem;
                 width: 21.5rem;
-                background-color: $median_cut2;
+                background-color: $material_design6;
                 border: none;
             }
 

@@ -104,10 +104,82 @@
                   Online post-graduate certificates are a popular way to develop your professional qualifications of Masterstudy.
                 </div>
               </div>
-
             </div>
         </div>
 
+      </section>
+
+      <!-- Course List -->
+      <section>
+        <div class="container-sm">
+          <div class="row">
+
+            <!-- Software Development -->
+            <div class="software-dev">
+
+              <!-- Course Image -->
+              <img src="../assets/img/cat_1-1540x750.jpg" alt="software-devlopment_img">
+
+              <!-- Course Description -->
+              <div class="courses-description">
+
+                <!-- Course Type -->
+                <div>
+                  Software Development
+                </div>
+
+                <!-- Total Courses -->
+                <div>
+                  5 Courses
+                </div>
+              </div>
+            </div>
+
+            <div class="col-wrapper">
+              <!-- Art -->
+              <div class="art">
+
+                <!-- Course Image -->
+                <img src="../assets/img/cat_2-370x155.jpg" alt="art_img">
+
+                <!-- Course Description -->
+                <div class="courses-description">
+
+                  <!-- Course Type -->
+                  <div>
+                    Art
+                  </div>
+
+                  <!-- Total Courses -->
+                  <div>
+                    8 Courses
+                  </div>
+                </div>
+              </div>
+
+              <!-- Art -->
+              <div class="art">
+
+                <!-- Course Image -->
+                <img src="../assets/img/cat_2-370x155.jpg" alt="art_img">
+
+                <!-- Course Description -->
+                <div class="courses-description">
+
+                  <!-- Course Type -->
+                  <div>
+                    Art
+                  </div>
+
+                  <!-- Total Courses -->
+                  <div>
+                    8 Courses
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 </template>
@@ -135,7 +207,7 @@ main {
 
       h2 {
         font-size: 2.8rem;
-        font-weight: 100;
+        font-weight: 200;
       }
 
       h3 {
@@ -172,7 +244,7 @@ main {
       .book1-img {
         width: 9rem;
         position: absolute;
-        top: 94px;
+        top: 90px;
         right: -97px;
       }
 
@@ -202,28 +274,53 @@ main {
   .benefits {
     display: flex;
     padding-block: 4rem;
+
+    .col-benefits {
+      width: calc(100% / 3);
+      background-color:$material_design6;
+      margin: 0.6rem;
+      padding: 1.6rem;
+
+      i {
+        font-size: 2rem;
+        color: $color_cube6;
+      }
+
+      h4 {
+        font-weight:400;
+        font-size: 0.8rem;
+        padding-block: 1.5rem;
+      }
+
+      .text-benefits {
+        font-size: 0.6rem;
+        color:$median_cut6;
+      }
+    }
+  }
+  
+  .row {
+    display: flex;
+    margin-inline: 0.6rem;
+  }
+  .software-dev {
+    width: calc((100% / 3)* 2);
+
+    img {
+      width: 102%;
+    }
   }
 
-  .col-benefits {
-    background-color:$material_design6;
-    margin: 0.6rem;
-    padding: 1.6rem;
+  .courses-description {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    padding-block: 0.86rem;
+  }
 
-    i {
-      font-size: 2rem;
-      color: $color_cube6;
-    }
-
-    h4 {
-      font-weight:400;
-      font-size: 0.8rem;
-      padding-block: 1.5rem;
-    }
-
-    .text-benefits {
-      font-size: 0.6rem;
-      color:$median_cut6;
-    }
+  .art {
+    padding-left: 1.2rem;
+    width: 18rem;
   }
 }
 </style>
