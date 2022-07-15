@@ -295,7 +295,6 @@ header {
                     color: $color_cube1;
                     padding-inline: 0.5rem;
                 }
-                
             }
         }
 
@@ -344,6 +343,7 @@ header {
 
                 .bookmark {
                     padding-left: 0.5rem;
+                    cursor: pointer;
                 }
             }
         }
