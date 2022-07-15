@@ -1,10 +1,9 @@
 <template>
     <header>
-        <div class="container-lg">
 
-            <!-- Header Top -->
-            <div class="header-top">
-
+        <!-- Header Top -->
+        <div class="header-top">
+            <div class="container-lg flex">
                 <!-- Language Menù-->
                 <div class="language-menu">
 
@@ -100,11 +99,12 @@
                         </li>
                     </ul>
                 </div>
-
             </div>
+        </div>
 
-            <!-- Header Bottom -->
-            <div class="header-bottom">
+        <!-- Header Bottom -->
+        <div class="header-bottom">
+            <div class="container-lg flex">
 
                 <!-- Logo -->
                 <div class="logo">
@@ -146,7 +146,7 @@
                     <div class="enterprise">
 
                         <!-- Instructor Icon -->
-                        <i class="fa-solid fa-chalkboard-user"></i>
+                        <i class="fa-solid fa-suitcase"></i>
                         For Enterprise
                     </div>
 
@@ -164,10 +164,17 @@
                         <a href="#" class="btn">
                             sign up
                         </a>
+
+                        <div class="bookmark">
+
+                            <!-- Bookmark Icon -->
+                            <i class="fa-regular fa-bookmark fa-xl"></i>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        
     </header>
 </template>
 
@@ -182,10 +189,8 @@ name: "HeaderComponent"
 @import "../style/variables.scss";
 
 header {
-    padding: 1.25rem;
+    padding-block: 1.25rem;
     .header-top {
-        display: flex;
-        justify-content: space-between;
         border-bottom: 0.063rem solid lightgrey;
         color:grey;
         font-size: 0.625rem;
@@ -247,7 +252,6 @@ header {
                     cursor: pointer;
                 }
             }
-
         }
     }
 
@@ -322,20 +326,31 @@ header {
 
             .user-access {
                 display: flex;
+
+                .btn {
+                    font-weight: 600;
+                }
+
                 a {
                     display: inline-block;
                     background-color:$color_cube6;
+                    color: $color_cube1;
                     border: 1px solid $color_cube6;
-                    padding: 0.5rem;
-                    // border-style: solid;s
-                    // border-width: 1px;
-                    padding: 10px 15px;
+                    text-transform: uppercase;
+                    padding: 0.6rem 1.2rem;
                     border-radius: 20px;
                     cursor: pointer;
                 }
+
+                .bookmark {
+                    padding-left: 0.5rem;
+                }
             }
         }
-    }
-    
+    }  
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
 }
 </style>
