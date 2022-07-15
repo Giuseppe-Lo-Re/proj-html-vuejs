@@ -44,6 +44,29 @@
               <img class="magnifier-img" src="../assets/img/magnifier.png" alt="magnifier">
             </div>
           </div>
+
+            <!-- Benefits -->
+            <div class="benefits">
+              <!-- Worldwide Recognize -->
+              <div class=".col-benefits">
+
+                <!-- Icon -->
+                <div>
+                  <i class="fa-solid fa-earth-africa"></i>
+                </div>
+
+                <!-- Title -->
+                <div>
+                  Our online course certificates can be used around the world and also in most popular universities and companies.
+                </div>
+
+                <!-- Text -->
+                <div>
+
+                </div>
+              </div>
+
+            </div>
         </div>
       </section>
     </main>
