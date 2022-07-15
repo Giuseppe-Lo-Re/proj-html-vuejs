@@ -47,8 +47,9 @@
 
             <!-- Benefits -->
             <div class="benefits">
-              <!-- Worldwide Recognize -->
-              <div class=".col-benefits">
+
+              <!-- "Worldwide Recognize" -->
+              <div class="col-benefits">
 
                 <!-- Icon -->
                 <div>
@@ -56,18 +57,57 @@
                 </div>
 
                 <!-- Title -->
-                <div>
-                  Our online course certificates can be used around the world and also in most popular universities and companies.
-                </div>
+                <h4>
+                  Worldwide Recognize
+                </h4>
 
                 <!-- Text -->
-                <div>
+                <div class="text-benefits">
+                  Our online course certificates can be used around the world and also in most popular universities and companies.
+                </div>
+              </div>
 
+              <!-- "Mostly Online Learning" -->
+              <div class="col-benefits">
+
+                <!-- Icon -->
+                <div>
+                  <i class="fa-solid fa-desktop"></i>
+                </div>
+
+                <!-- Title -->
+                <h4>
+                  Mostly Online Learning (sd)
+                </h4>
+
+                <!-- Text -->
+                <div class="text-benefits">
+                  Masterstudy online certificates can be obtained in a range of specialized areas and typically take about a year to complete.
+                </div>
+              </div>
+
+              <!-- "Graduate in as little as 1 Year" -->
+              <div class="col-benefits">
+
+                <!-- Icon -->
+                <div>
+                  <i class="fa-solid fa-calendar-check"></i>
+                </div>
+
+                <!-- Title -->
+                <h4>
+                  Graduate in as little as 1 Year
+                </h4>
+
+                <!-- Text -->
+                <div class="text-benefits">
+                  Online post-graduate certificates are a popular way to develop your professional qualifications of Masterstudy.
                 </div>
               </div>
 
             </div>
         </div>
+
       </section>
     </main>
 </template>
@@ -156,7 +196,33 @@ main {
         bottom: 95px;
         right: -84px;
       }
+    }
+  }
 
+  .benefits {
+    display: flex;
+    padding-block: 4rem;
+  }
+
+  .col-benefits {
+    background-color:$material_design6;
+    margin: 0.6rem;
+    padding: 1.6rem;
+
+    i {
+      font-size: 2rem;
+      color: $color_cube6;
+    }
+
+    h4 {
+      font-weight:400;
+      font-size: 0.8rem;
+      padding-block: 1.5rem;
+    }
+
+    .text-benefits {
+      font-size: 0.6rem;
+      color:$median_cut6;
     }
   }
 }

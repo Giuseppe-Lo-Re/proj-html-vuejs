@@ -83,7 +83,7 @@
                         </li>
 
                         <li>
-                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            <i class="fa-brands fa-flickr"></i>
                         </li>
 
                         <li>
@@ -191,7 +191,7 @@ header {
     padding-block: 1.25rem;
     .header-top {
         border-bottom: 0.063rem solid lightgrey;
-        color:grey;
+        color:$median_cut6;
         font-size: 0.625rem;
         padding-bottom: 0.625rem;
     
@@ -257,7 +257,7 @@ header {
     .header-bottom {
         display: flex;
         align-items: center;
-        color: grey;
+        color: $median_cut6;
         padding-top: 1rem;
 
         .logo {
@@ -284,6 +284,10 @@ header {
                 border: none;
             }
 
+            textarea:focus, input:focus {
+            outline: none;
+            }
+
             button {
                 background-color: $color_cube6;
                 border: none;
@@ -299,6 +303,7 @@ header {
 
         .cta {
             display: flex;
+            align-items: center;
             padding-left: 2.5rem;
             font-size: 0.7rem;
 
@@ -317,16 +322,13 @@ header {
                 padding-inline: 1.2rem;
             }
 
-            .log-in {
-                padding-right: 1rem;
-
-            }
-
             .user-access {
                 display: flex;
+                align-items: center;
 
                 .btn {
                     font-weight: 600;
+                    margin-inline: 1.3rem;
                 }
 
                 a {
@@ -341,7 +343,6 @@ header {
                 }
 
                 .bookmark {
-                    padding-left: 0.5rem;
                     cursor: pointer;
                 }
             }
@@ -351,5 +352,6 @@ header {
 .flex {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 </style>
