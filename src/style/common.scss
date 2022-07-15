@@ -19,7 +19,12 @@ body {
 }
 
 // COMMON
-.container {
+.container-lg {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-sm {
     width: 70%;
     margin: 0 auto;
 }
