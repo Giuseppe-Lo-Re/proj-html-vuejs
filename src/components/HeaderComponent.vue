@@ -1,7 +1,8 @@
 <template>
     <header>
-        <!-- Header Top -->
         <div class="container-lg">
+
+            <!-- Header Top -->
             <div class="header-top">
 
                 <!-- Language Menù-->
@@ -28,6 +29,7 @@
                         </li>
 
                         <li class="relative">
+
                             <!-- Notification -->
                             <div class="new on-second">
                                 new
@@ -48,6 +50,7 @@
                         </li>
 
                         <li>
+
                             <!-- Notification -->
                             <div class="new on-sixth">
                                 new
@@ -99,6 +102,71 @@
                 </div>
 
             </div>
+
+            <!-- Header Bottom -->
+            <div class="header-bottom">
+
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="../assets/img/MasterStudy_logo.svg" alt="masterstudy_logo">
+                </div>
+
+                <!-- Category -->
+                <div class="category">
+
+                    <!-- Bars Icon -->
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    category
+                </div>
+
+                <!-- Form -->
+                <div class="form">
+
+                    <!-- Input -->
+                    <input type="text" placeholder="Search course">
+
+                    <!-- Button -->
+                    <button type="submit">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </div>
+
+                <!-- Call to Action -->
+                <div class="cta">
+
+                    <!-- Instructor -->
+                    <div class="instructor">
+
+                        <!-- Megaphone Icon -->
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        Become an Instructor
+                    </div>
+
+                    <!-- Enterprise -->
+                    <div class="enterprise">
+
+                        <!-- Instructor Icon -->
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        For Enterprise
+                    </div>
+
+                    <!-- User Access -->
+                    <div class="user-access">
+                        <!-- Log in -->
+                        <div class="log-in">
+
+                            <!-- User Icon -->
+                            <i class="fa-solid fa-user"></i>
+                            log in
+                        </div>
+
+                        <!-- Sign Up Button -->
+                        <a href="#" class="btn">
+                            sign up
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 </template>
@@ -147,29 +215,31 @@ header {
                     .new {
                         background-color: $color_cube8;
                         color: $color_cube1;
+                        text-transform: uppercase;
+                        font-size: 0.5rem;
                         padding: 0.1rem 0.25rem;
-                        border-radius: 5px;
+                        border-radius: 3px;
                         border-bottom-left-radius: 0px;
 
-                    &.on-second {
-                        position: absolute;
-                        top: -18px;
-                        left: 54px;
-                    }
+                        &.on-second {
+                            position: absolute;
+                            top: -18px;
+                            left: 54px;
+                        }
 
-                    &.on-sixth {
-                        position: absolute;
-                        top: -18px;
-                        right: 33px;
+                        &.on-sixth {
+                            position: absolute;
+                            top: -18px;
+                            right: 33px;
+                        }
                     }
-                    }
-
                 }
             }
     
             .socials-links {
                 padding-left: 1.875rem;
                 display: flex;
+                font-size: 0.75rem;
         
                 li {
                     list-style-type: none;
@@ -178,6 +248,92 @@ header {
                 }
             }
 
+        }
+    }
+
+    .header-bottom {
+        display: flex;
+        align-items: center;
+        color: grey;
+        padding-top: 1rem;
+
+        .logo {
+            width: 16rem;
+            padding-right: 2rem;
+            cursor: pointer;
+        }
+
+        .category {
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 0.6rem;
+            padding-right: 0.5rem;
+            cursor: pointer;
+        }
+
+        .form {
+            input {
+                display: inline;
+                font-size: 0.75rem;
+                padding: 0.5rem;
+                width: 21.5rem;
+                background-color: $median_cut2;
+                border: none;
+            }
+
+            button {
+                background-color: $color_cube6;
+                border: none;
+                padding: 0.43rem;
+                cursor: pointer;
+
+                i {
+                    color: $color_cube1;
+                    padding-inline: 0.5rem;
+                }
+                
+            }
+        }
+
+        .cta {
+            display: flex;
+            padding-left: 2.5rem;
+            font-size: 0.7rem;
+
+            .instructor,
+            .enterprise,
+            .log-in {
+                cursor: pointer;
+            }
+
+            i {
+                color: $color_cube6;
+                padding-inline: 0.2rem;
+            }
+
+            .enterprise {
+                padding-inline: 1.2rem;
+            }
+
+            .log-in {
+                padding-right: 1rem;
+
+            }
+
+            .user-access {
+                display: flex;
+                a {
+                    display: inline-block;
+                    background-color:$color_cube6;
+                    border: 1px solid $color_cube6;
+                    padding: 0.5rem;
+                    // border-style: solid;s
+                    // border-width: 1px;
+                    padding: 10px 15px;
+                    border-radius: 20px;
+                    cursor: pointer;
+                }
+            }
         }
     }
     
