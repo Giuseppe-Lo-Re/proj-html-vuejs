@@ -371,6 +371,265 @@
               </div>
             </div>
 
+            <!-- Single Card with sticker & Stars-->
+            <div class="card-container">
+              <div class="card selected">
+
+                <!-- Image -->
+                <img src="../assets/img/cat_2-544x322.jpg" alt="art-painting">
+
+                <!-- Sticker -->
+                <div class="sticker green">
+                  new
+                </div>
+                <!-- Details -->
+                <div class="details">
+
+                  <!-- Category -->
+                  <div class="category">
+                    Art
+
+                    <!-- Chevron Right Icon -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+
+                  <!-- Name Course -->
+                  <div class="name">
+                    Real Things Art painting by Jason Ni
+                  </div>
+
+                  <!-- Card Footer -->
+                  <div class="card-footer">
+                    <div class="length">
+
+                      <!-- Clock Icon -->
+                      <i class="fa fa-clock"></i>
+
+                      <!-- Course Length  -->
+                      <span class="text">
+                        6 hours
+                      </span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="price">
+                      <!-- Old Price -->
+                      <div class="old-price">
+                        $60
+                      </div>
+
+                      <!-- New Price -->
+                      <div class="new-price">
+                        $45
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card with sticker-->
+            <div class="card-container">
+              <div class="card selected">
+
+                <!-- Image -->
+                <img src="../assets/img/cat_2-544x322.jpg" alt="art-painting">
+
+                <!-- Sticker -->
+                <div class="sticker red">
+                  hot
+                </div>
+                <!-- Details -->
+                <div class="details">
+
+                  <!-- Category -->
+                  <div class="category">
+                    Art
+
+                    <!-- Chevron Right Icon -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+
+                  <!-- Name Course -->
+                  <div class="name">
+                    Real Things Art painting by Jason Ni
+                  </div>
+
+                  <!-- Card Footer -->
+                  <div class="card-footer">
+                    <div class="length">
+
+                      <!-- Stars -->
+                        <div class="stars">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+
+                      <!-- Course Length  -->
+                      <span class="text center">
+                        5
+                      </span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="price">
+                      Free
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card with sticker-->
+            <div class="card-container">
+              <div class="card selected">
+
+                <!-- Image -->
+                <img src="../assets/img/cat_2-544x322.jpg" alt="art-painting">
+
+                <!-- Sticker -->
+                <div class="sticker orange">
+                  special
+                </div>
+                <!-- Details -->
+                <div class="details">
+
+                  <!-- Category -->
+                  <div class="category">
+                    Art
+
+                    <!-- Chevron Right Icon -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+
+                  <!-- Name Course -->
+                  <div class="name">
+                    Real Things Art painting by Jason Ni
+                  </div>
+
+                  <!-- Card Footer -->
+                  <div class="card-footer">
+                    <div class="length">
+
+                      <!-- Clock Icon -->
+                      <i class="fa fa-clock"></i>
+
+                      <!-- Course Length  -->
+                      <span class="text">
+                        6 hours
+                      </span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="price">
+                      <!-- Old Price -->
+                      <div class="old-price">
+                        $60
+                      </div>
+
+                      <!-- New Price -->
+                      <div class="new-price">
+                        $45
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="card-container">
+              <div class="card">
+
+                <!-- Image -->
+                <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
+
+                <!-- Details -->
+                <div class="details">
+
+                  <!-- Category -->
+                  <div class="category">
+                    Apache
+
+                    <!-- Chevron Right Icon -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+
+                  <!-- Name Course -->
+                  <div class="name">
+                    Web Coding and Apache Basics
+                  </div>
+
+                  <!-- Card Footer -->
+                  <div class="card-footer">
+                    <div class="length">
+
+                      <!-- Clock Icon -->
+                      <i class="fa fa-clock"></i>
+
+                      <!-- Course Length  -->
+                      <span class="text">
+                        6 hours
+                      </span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="price">
+                      Free
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="card-container">
+              <div class="card">
+
+                <!-- Image -->
+                <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
+
+                <!-- Details -->
+                <div class="details">
+
+                  <!-- Category -->
+                  <div class="category">
+                    Apache
+
+                    <!-- Chevron Right Icon -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+
+                  <!-- Name Course -->
+                  <div class="name">
+                    Web Coding and Apache Basics
+                  </div>
+
+                  <!-- Card Footer -->
+                  <div class="card-footer">
+                    <div class="length">
+
+                      <!-- Clock Icon -->
+                      <i class="fa fa-clock"></i>
+
+                      <!-- Course Length  -->
+                      <span class="text">
+                        6 hours
+                      </span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="price">
+                      Free
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <!-- Single Card -->
             <div class="card-container">
               <div class="card">
@@ -855,7 +1114,7 @@ main {
       width: 90%;
       margin: 0 auto;
       display: flex;
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
 
       .card-container {
         width: calc(100% / 6);
@@ -863,7 +1122,35 @@ main {
 
         .card {
           border: 1px solid $median_cut2;
+          position: relative;
 
+          .sticker {
+            color: $color_cube1;
+            text-transform: uppercase;
+            font-size: 0.6rem;
+            padding: 0.1rem 0.25rem;
+            border-radius: 3px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+
+            &.green {
+              background-color: $color_cube2;
+            }
+            
+            &.red {
+              background-color: $color_cube8;
+            }
+
+            &.orange {
+              background-color: $color_cube7;
+            }
+          }
+
+          &.selected {
+          border: 1px solid $color_cube7;
+      }
+          
           .details {
             padding: 0.9rem;
 
@@ -891,25 +1178,51 @@ main {
               padding-top: 0.8rem;
 
               .length {
+                display: flex;
+                align-content: center;
                 color: $median_cut6;
 
                 i {
                   font-size: 0.8rem;
                 }
-  
+
+                .stars {
+
+                  i {
+                    font-size: 0.5rem;
+                    color: $color_cube7;
+                  }
+                }
                 .text {
                   font-size: 0.7rem;
                   padding-left: 0.2rem;
+
+                  &.center {
+                    padding-top: 0.35rem;
+                  }
                 }
               }
 
-              .price {
+
+              .old-price {
+                font-size: 0.60rem;
+                font-weight: 500;
+                text-decoration: line-through;
+                color: $median_cut6;
+              }
+
+              .price,
+              .new-price {
                 font-size: 0.75rem;
                 font-weight: 500;
               }
             }
           }
         }
+      }
+
+      .selected {
+        border: 1px solid $color_cube7;
       }
     }
   }
