@@ -283,6 +283,47 @@
           </div>
         </div>
       </section>
+
+      <!-- "Recent Course" Section -->
+      <section>
+        <div class="recent-course">
+          <!-- Title -->
+          <h2>
+            Recent course
+          </h2>
+
+          <!-- Index Categories -->
+          <ul>
+            <li class="active">
+              All Categories
+            </li>
+
+            <li>
+              Art
+            </li>
+
+            <li>
+              Exercise
+            </li>
+
+            <li>
+              Material Design
+            </li>
+
+            <li>
+              Music
+            </li>
+
+            <li>
+              Photography
+            </li>
+
+            <li>
+              Software Development
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 </template>
 
@@ -429,6 +470,7 @@ main {
 
   .software-dev {
     width: calc(((100% / 3) - 0.25rem) * 2);
+    cursor: pointer;
   }
 
   .courses-description {
@@ -436,6 +478,7 @@ main {
     justify-content: space-between;
     font-size: 0.7rem;
     padding-block: 1.16rem;
+    cursor: pointer;
   }
 
   .col-wrapper {
@@ -444,13 +487,47 @@ main {
     .col-thin {
       width: 100%;
       padding-left: 1.6rem;
+      cursor: pointer;
     }
   }
 
   .col-thin-bottom {
     width: calc((100% / 3) - 1.2rem);
+    cursor: pointer;
   }
 
+  .recent-course {
+    text-align: center;
 
+    h2 {
+      font-size: 2.8rem;
+      font-weight: 200;
+      padding-top: 3.5rem;
+      padding-bottom: 1.5rem;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      li {
+        list-style-type: none;
+        font-size: 0.7rem;
+        padding-inline: 1rem;
+        font-weight: 300;
+        color: $color_cube6;
+        margin-bottom: 2rem;
+        cursor: pointer;
+      }
+
+      .active {
+        background-color:$material_design6;
+        padding: 0.5rem 0.7rem;
+        border-radius: 30px;
+        color:$median_cut6;
+      }
+    }
+  }
 }
 </style>
