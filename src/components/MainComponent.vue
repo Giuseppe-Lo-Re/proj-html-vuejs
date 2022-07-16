@@ -322,6 +322,326 @@
               Software Development
             </li>
           </ul>
+
+          <!-- Courses Cards -->
+          <div class="cards-container">
+
+            <!-- Single Card -->
+            <div class="card-container">
+              <div class="card">
+
+                <!-- Image -->
+                <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
+
+                <!-- Details -->
+                <div class="details">
+
+                  <!-- Category -->
+                  <div class="category">
+                    Apache
+
+                    <!-- Chevron Right Icon -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+
+                  <!-- Name Course -->
+                  <div class="name">
+                    Web Coding and Apache Basics
+                  </div>
+
+                  <!-- Card Footer -->
+                  <div class="card-footer">
+                    <div class="length">
+
+                      <!-- Clock Icon -->
+                      <i class="fa fa-clock"></i>
+
+                      <!-- Course Length  -->
+                      <span class="text">
+                        6 hours
+                      </span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="price">
+                      Free
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="card-container">
+              <div class="card">
+
+                <!-- Image -->
+                <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
+
+                <!-- Details -->
+                <div class="details">
+
+                  <!-- Category -->
+                  <div class="category">
+                    Apache
+
+                    <!-- Chevron Right Icon -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+
+                  <!-- Name Course -->
+                  <div class="name">
+                    Web Coding and Apache Basics
+                  </div>
+
+                  <!-- Card Footer -->
+                  <div class="card-footer">
+                    <div class="length">
+
+                      <!-- Clock Icon -->
+                      <i class="fa fa-clock"></i>
+
+                      <!-- Course Length  -->
+                      <span class="text">
+                        6 hours
+                      </span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="price">
+                      Free
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="card-container">
+              <div class="card">
+
+                <!-- Image -->
+                <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
+
+                <!-- Details -->
+                <div class="details">
+
+                  <!-- Category -->
+                  <div class="category">
+                    Apache
+
+                    <!-- Chevron Right Icon -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+
+                  <!-- Name Course -->
+                  <div class="name">
+                    Web Coding and Apache Basics
+                  </div>
+
+                  <!-- Card Footer -->
+                  <div class="card-footer">
+                    <div class="length">
+
+                      <!-- Clock Icon -->
+                      <i class="fa fa-clock"></i>
+
+                      <!-- Course Length  -->
+                      <span class="text">
+                        6 hours
+                      </span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="price">
+                      Free
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="card-container">
+              <div class="card">
+
+                <!-- Image -->
+                <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
+
+                <!-- Details -->
+                <div class="details">
+
+                  <!-- Category -->
+                  <div class="category">
+                    Apache
+
+                    <!-- Chevron Right Icon -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+
+                  <!-- Name Course -->
+                  <div class="name">
+                    Web Coding and Apache Basics
+                  </div>
+
+                  <!-- Card Footer -->
+                  <div class="card-footer">
+                    <div class="length">
+
+                      <!-- Clock Icon -->
+                      <i class="fa fa-clock"></i>
+
+                      <!-- Course Length  -->
+                      <span class="text">
+                        6 hours
+                      </span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="price">
+                      Free
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="card-container">
+              <div class="card">
+
+                <!-- Image -->
+                <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
+
+                <!-- Details -->
+                <div class="details">
+
+                  <!-- Category -->
+                  <div class="category">
+                    Apache
+
+                    <!-- Chevron Right Icon -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+
+                  <!-- Name Course -->
+                  <div class="name">
+                    Web Coding and Apache Basics
+                  </div>
+
+                  <!-- Card Footer -->
+                  <div class="card-footer">
+                    <div class="length">
+
+                      <!-- Clock Icon -->
+                      <i class="fa fa-clock"></i>
+
+                      <!-- Course Length  -->
+                      <span class="text">
+                        6 hours
+                      </span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="price">
+                      Free
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="card-container">
+              <div class="card">
+
+                <!-- Image -->
+                <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
+
+                <!-- Details -->
+                <div class="details">
+
+                  <!-- Category -->
+                  <div class="category">
+                    Apache
+
+                    <!-- Chevron Right Icon -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+
+                  <!-- Name Course -->
+                  <div class="name">
+                    Web Coding and Apache Basics
+                  </div>
+
+                  <!-- Card Footer -->
+                  <div class="card-footer">
+                    <div class="length">
+
+                      <!-- Clock Icon -->
+                      <i class="fa fa-clock"></i>
+
+                      <!-- Course Length  -->
+                      <span class="text">
+                        6 hours
+                      </span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="price">
+                      Free
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="card-container">
+              <div class="card">
+
+                <!-- Image -->
+                <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
+
+                <!-- Details -->
+                <div class="details">
+
+                  <!-- Category -->
+                  <div class="category">
+                    Apache
+
+                    <!-- Chevron Right Icon -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+
+                  <!-- Name Course -->
+                  <div class="name">
+                    Web Coding and Apache Basics
+                  </div>
+
+                  <!-- Card Footer -->
+                  <div class="card-footer">
+                    <div class="length">
+
+                      <!-- Clock Icon -->
+                      <i class="fa fa-clock"></i>
+
+                      <!-- Course Length  -->
+                      <span class="text">
+                        6 hours
+                      </span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="price">
+                      Free
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
         </div>
       </section>
     </main>
@@ -496,6 +816,7 @@ main {
     cursor: pointer;
   }
 
+  // "Recent Course" Section
   .recent-course {
     text-align: center;
 
@@ -526,6 +847,69 @@ main {
         padding: 0.5rem 0.7rem;
         border-radius: 30px;
         color:$median_cut6;
+      }
+    }
+
+    // Cards
+    .cards-container {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: nowrap;
+
+      .card-container {
+        width: calc(100% / 6);
+        padding: 1rem;
+
+        .card {
+          border: 1px solid $median_cut2;
+
+          .details {
+            padding: 0.9rem;
+
+            .category {
+              font-size: 0.7rem;
+              color: $median_cut6;
+              text-align: left;
+
+              i {
+                font-size: 0.5rem;
+              }
+            }
+
+            .name {
+              font-size: 0.7rem;
+              text-align: left;
+              padding-block: 0.8rem;
+            }
+
+            .card-footer {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              border-top: 1px solid $median_cut2;
+              padding-top: 0.8rem;
+
+              .length {
+                color: $median_cut6;
+
+                i {
+                  font-size: 0.8rem;
+                }
+  
+                .text {
+                  font-size: 0.7rem;
+                  padding-left: 0.2rem;
+                }
+              }
+
+              .price {
+                font-size: 0.75rem;
+                font-weight: 500;
+              }
+            }
+          }
+        }
       }
     }
   }
