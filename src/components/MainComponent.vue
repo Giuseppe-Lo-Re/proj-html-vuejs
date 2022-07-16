@@ -289,7 +289,7 @@
         <div class="recent-course">
           <!-- Title -->
           <h2>
-            Recent course
+            Recent courses
           </h2>
 
           <!-- Index Categories -->
@@ -371,7 +371,7 @@
               </div>
             </div>
 
-            <!-- Single Card with sticker & Stars-->
+            <!-- Single Card with Sticker -->
             <div class="card-container">
               <div class="card selected">
 
@@ -382,6 +382,7 @@
                 <div class="sticker green">
                   new
                 </div>
+
                 <!-- Details -->
                 <div class="details">
 
@@ -428,23 +429,24 @@
               </div>
             </div>
 
-            <!-- Single Card with sticker-->
+            <!-- Single Card with Sticker & Stars -->
             <div class="card-container">
-              <div class="card selected">
+              <div class="card">
 
                 <!-- Image -->
-                <img src="../assets/img/cat_2-544x322.jpg" alt="art-painting">
+                <img src="../assets/img/course-preview-272x161.jpg" alt="basic-masterstudy">
 
                 <!-- Sticker -->
                 <div class="sticker red">
                   hot
                 </div>
+
                 <!-- Details -->
                 <div class="details">
 
                   <!-- Category -->
                   <div class="category">
-                    Art
+                    Software Development
 
                     <!-- Chevron Right Icon -->
                     <i class="fa-solid fa-chevron-right"></i>
@@ -452,7 +454,8 @@
 
                   <!-- Name Course -->
                   <div class="name">
-                    Real Things Art painting by Jason Ni
+                    Basic of Masterstudy <br>
+                    <br>
                   </div>
 
                   <!-- Card Footer -->
@@ -483,17 +486,117 @@
               </div>
             </div>
 
-            <!-- Single Card with sticker-->
+            <!-- Single Card with Sticker & Stars -->
             <div class="card-container">
-              <div class="card selected">
+              <div class="card">
 
                 <!-- Image -->
-                <img src="../assets/img/cat_2-544x322.jpg" alt="art-painting">
+                <img src="../assets/img/photo-1496307042754-b4aa456c4a2d-544x322.jpeg" alt="djing">
 
                 <!-- Sticker -->
                 <div class="sticker orange">
                   special
                 </div>
+
+                <!-- Details -->
+                <div class="details">
+
+                  <!-- Category -->
+                  <div class="category">
+                    Electronic
+
+                    <!-- Chevron Right Icon -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+
+                  <!-- Name Course -->
+                  <div class="name">
+                    How to be a DJ? Make Electronic Music
+                  </div>
+
+                  <!-- Card Footer -->
+                  <div class="card-footer">
+                    <div class="length">
+
+                      <!-- Stars -->
+                        <div class="stars">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+
+                      <!-- Course Length  -->
+                      <span class="text center">
+                        5
+                      </span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="price">
+                      <!-- Old Price -->
+                      <div class="old-price">
+                        $59
+                      </div>
+
+                      <!-- New Price -->
+                      <div class="new-price">
+                        $49
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="card-container">
+              <div class="card">
+
+                <!-- Image -->
+                <img src="../assets/img/photo-1416339134316-0e91dc9ded92-scaled-272x161.jpeg" alt="design">
+
+                <!-- Details -->
+                <div class="details">
+
+                  <!-- Category -->
+                  <div class="category">
+                    Communication
+
+                    <!-- Chevron Right Icon -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+
+                  <!-- Name Course -->
+                  <div class="name">
+                    Design Instruments for Communication
+                  </div>
+
+                  <!-- Card Footer -->
+                  <div class="card-footer">
+                    <div class="length">
+
+                      <!-- Clock Icon -->
+                      <i class="fa fa-clock"></i>
+
+                      <!-- Course Length  -->
+                      <span class="text">
+                        6 hours
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="card-container">
+              <div class="card">
+
+                <!-- Image -->
+                <img src="../assets/img/cathryn-lavery-67852-unsplash-544x322.jpg" alt="concept">
+
                 <!-- Details -->
                 <div class="details">
 
@@ -507,7 +610,7 @@
 
                   <!-- Name Course -->
                   <div class="name">
-                    Real Things Art painting by Jason Ni
+                    make your COncept Right and Beautiful
                   </div>
 
                   <!-- Card Footer -->
@@ -525,15 +628,7 @@
 
                     <!-- Price -->
                     <div class="price">
-                      <!-- Old Price -->
-                      <div class="old-price">
-                        $60
-                      </div>
-
-                      <!-- New Price -->
-                      <div class="new-price">
-                        $45
-                      </div>
+                      $70
                     </div>
                   </div>
                 </div>
@@ -545,14 +640,14 @@
               <div class="card">
 
                 <!-- Image -->
-                <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
+                <img src="../assets/img/photo-1475452779376-caebfb988090-544x322.jpeg" alt="bicycling">
 
                 <!-- Details -->
                 <div class="details">
 
                   <!-- Category -->
                   <div class="category">
-                    Apache
+                    Bicycling
 
                     <!-- Chevron Right Icon -->
                     <i class="fa-solid fa-chevron-right"></i>
@@ -560,7 +655,203 @@
 
                   <!-- Name Course -->
                   <div class="name">
-                    Web Coding and Apache Basics
+                    Road Bike Manual ore How to Be a Champion.
+                  </div>
+
+                  <!-- Card Footer -->
+                  <div class="card-footer">
+                    <div class="length">
+
+                      <!-- Clock Icon -->
+                      <i class="fa fa-clock"></i>
+
+                      <!-- Course Length  -->
+                      <span class="text">
+                        6 hours
+                      </span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="price">
+                      $20
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="card-container">
+              <div class="card">
+
+                <!-- Image -->
+                <img src="../assets/img/cristian-grecu-762012-unsplash-min-scaled-544x322.jpg" alt="landscape">
+
+                <!-- Details -->
+                <div class="details">
+
+                  <!-- Category -->
+                  <div class="category">
+                    Documentary
+
+                    <!-- Chevron Right Icon -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+
+                  <!-- Name Course -->
+                  <div class="name">
+                    How to Make Beautiful Landscape photos?
+                  </div>
+
+                  <!-- Card Footer -->
+                  <div class="card-footer">
+                    <div class="length">
+
+                      <!-- Clock Icon -->
+                      <i class="fa fa-clock"></i>
+
+                      <!-- Course Length  -->
+                      <span class="text">
+                        6 hours
+                      </span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="price">
+                      $60
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="card-container">
+              <div class="card">
+
+                <!-- Image -->
+                <img src="../assets/img/landscape-544x322.jpg" alt="van_gogh">
+
+                <!-- Details -->
+                <div class="details">
+
+                  <!-- Category -->
+                  <div class="category">
+                    Art
+
+                    <!-- Chevron Right Icon -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+
+                  <!-- Name Course -->
+                  <div class="name">
+                    Let's paint Van Gogh's Starry Night
+                  </div>
+
+                  <!-- Card Footer -->
+                  <div class="card-footer">
+                    <div class="length">
+
+                      <!-- Clock Icon -->
+                      <i class="fa fa-clock"></i>
+
+                      <!-- Course Length  -->
+                      <span class="text">
+                        6 hours
+                      </span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="price">
+                      $79
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card with Stars with Sticker -->
+            <div class="card-container">
+              <div class="card">
+
+                <!-- Image -->
+                <img src="../assets/img/12345-1-544x322.png" alt="unreal-engine">
+
+                <!-- Sticker -->
+                <div class="sticker orange">
+                  special
+                </div>
+
+                <!-- Details -->
+                <div class="details">
+
+                  <!-- Category -->
+                  <div class="category">
+                    Nvidia
+
+                    <!-- Chevron Right Icon -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+
+                  <!-- Name Course -->
+                  <div class="name">
+                    Nvidia and UE4 Technologies Pratice
+                  </div>
+
+                  <!-- Card Footer -->
+                  <div class="card-footer">
+                    <div class="length">
+
+                      <!-- Stars -->
+                        <div class="stars">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+
+                      <!-- Course Length  -->
+                      <span class="text center">
+                        5
+                      </span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="price">
+                      Free
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card with Sticker -->
+            <div class="card-container">
+              <div class="card">
+
+                <!-- Image -->
+                <img src="../assets/img/jakob-owens-198234-unsplash-min-1-544x322.png" alt="red-camera">
+
+                <!-- Sticker -->
+                <div class="sticker orange">
+                  special
+                </div>
+                
+                <!-- Details -->
+                <div class="details">
+
+                  <!-- Category -->
+                  <div class="category">
+                    Art
+
+                    <!-- Chevron Right Icon -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+
+                  <!-- Name Course -->
+                  <div class="name">
+                    How to Work with Lefendary RED camera?
                   </div>
 
                   <!-- Card Footer -->
@@ -590,14 +881,14 @@
               <div class="card">
 
                 <!-- Image -->
-                <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
+                <img src="../assets/img/promo_tf-544x322.jpg" alt="masterstudy-mobile">
 
                 <!-- Details -->
                 <div class="details">
 
                   <!-- Category -->
                   <div class="category">
-                    Apache
+                    Software Development
 
                     <!-- Chevron Right Icon -->
                     <i class="fa-solid fa-chevron-right"></i>
@@ -605,7 +896,8 @@
 
                   <!-- Name Course -->
                   <div class="name">
-                    Web Coding and Apache Basics
+                    Masterstudy Mobile LMS App <br>
+                    <br>
                   </div>
 
                   <!-- Card Footer -->
@@ -617,277 +909,7 @@
 
                       <!-- Course Length  -->
                       <span class="text">
-                        6 hours
-                      </span>
-                    </div>
-
-                    <!-- Price -->
-                    <div class="price">
-                      Free
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Single Card -->
-            <div class="card-container">
-              <div class="card">
-
-                <!-- Image -->
-                <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
-
-                <!-- Details -->
-                <div class="details">
-
-                  <!-- Category -->
-                  <div class="category">
-                    Apache
-
-                    <!-- Chevron Right Icon -->
-                    <i class="fa-solid fa-chevron-right"></i>
-                  </div>
-
-                  <!-- Name Course -->
-                  <div class="name">
-                    Web Coding and Apache Basics
-                  </div>
-
-                  <!-- Card Footer -->
-                  <div class="card-footer">
-                    <div class="length">
-
-                      <!-- Clock Icon -->
-                      <i class="fa fa-clock"></i>
-
-                      <!-- Course Length  -->
-                      <span class="text">
-                        6 hours
-                      </span>
-                    </div>
-
-                    <!-- Price -->
-                    <div class="price">
-                      Free
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Single Card -->
-            <div class="card-container">
-              <div class="card">
-
-                <!-- Image -->
-                <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
-
-                <!-- Details -->
-                <div class="details">
-
-                  <!-- Category -->
-                  <div class="category">
-                    Apache
-
-                    <!-- Chevron Right Icon -->
-                    <i class="fa-solid fa-chevron-right"></i>
-                  </div>
-
-                  <!-- Name Course -->
-                  <div class="name">
-                    Web Coding and Apache Basics
-                  </div>
-
-                  <!-- Card Footer -->
-                  <div class="card-footer">
-                    <div class="length">
-
-                      <!-- Clock Icon -->
-                      <i class="fa fa-clock"></i>
-
-                      <!-- Course Length  -->
-                      <span class="text">
-                        6 hours
-                      </span>
-                    </div>
-
-                    <!-- Price -->
-                    <div class="price">
-                      Free
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Single Card -->
-            <div class="card-container">
-              <div class="card">
-
-                <!-- Image -->
-                <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
-
-                <!-- Details -->
-                <div class="details">
-
-                  <!-- Category -->
-                  <div class="category">
-                    Apache
-
-                    <!-- Chevron Right Icon -->
-                    <i class="fa-solid fa-chevron-right"></i>
-                  </div>
-
-                  <!-- Name Course -->
-                  <div class="name">
-                    Web Coding and Apache Basics
-                  </div>
-
-                  <!-- Card Footer -->
-                  <div class="card-footer">
-                    <div class="length">
-
-                      <!-- Clock Icon -->
-                      <i class="fa fa-clock"></i>
-
-                      <!-- Course Length  -->
-                      <span class="text">
-                        6 hours
-                      </span>
-                    </div>
-
-                    <!-- Price -->
-                    <div class="price">
-                      Free
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Single Card -->
-            <div class="card-container">
-              <div class="card">
-
-                <!-- Image -->
-                <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
-
-                <!-- Details -->
-                <div class="details">
-
-                  <!-- Category -->
-                  <div class="category">
-                    Apache
-
-                    <!-- Chevron Right Icon -->
-                    <i class="fa-solid fa-chevron-right"></i>
-                  </div>
-
-                  <!-- Name Course -->
-                  <div class="name">
-                    Web Coding and Apache Basics
-                  </div>
-
-                  <!-- Card Footer -->
-                  <div class="card-footer">
-                    <div class="length">
-
-                      <!-- Clock Icon -->
-                      <i class="fa fa-clock"></i>
-
-                      <!-- Course Length  -->
-                      <span class="text">
-                        6 hours
-                      </span>
-                    </div>
-
-                    <!-- Price -->
-                    <div class="price">
-                      Free
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Single Card -->
-            <div class="card-container">
-              <div class="card">
-
-                <!-- Image -->
-                <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
-
-                <!-- Details -->
-                <div class="details">
-
-                  <!-- Category -->
-                  <div class="category">
-                    Apache
-
-                    <!-- Chevron Right Icon -->
-                    <i class="fa-solid fa-chevron-right"></i>
-                  </div>
-
-                  <!-- Name Course -->
-                  <div class="name">
-                    Web Coding and Apache Basics
-                  </div>
-
-                  <!-- Card Footer -->
-                  <div class="card-footer">
-                    <div class="length">
-
-                      <!-- Clock Icon -->
-                      <i class="fa fa-clock"></i>
-
-                      <!-- Course Length  -->
-                      <span class="text">
-                        6 hours
-                      </span>
-                    </div>
-
-                    <!-- Price -->
-                    <div class="price">
-                      Free
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Single Card -->
-            <div class="card-container">
-              <div class="card">
-
-                <!-- Image -->
-                <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
-
-                <!-- Details -->
-                <div class="details">
-
-                  <!-- Category -->
-                  <div class="category">
-                    Apache
-
-                    <!-- Chevron Right Icon -->
-                    <i class="fa-solid fa-chevron-right"></i>
-                  </div>
-
-                  <!-- Name Course -->
-                  <div class="name">
-                    Web Coding and Apache Basics
-                  </div>
-
-                  <!-- Card Footer -->
-                  <div class="card-footer">
-                    <div class="length">
-
-                      <!-- Clock Icon -->
-                      <i class="fa fa-clock"></i>
-
-                      <!-- Course Length  -->
-                      <span class="text">
-                        6 hours
+                        2 hours
                       </span>
                     </div>
 
@@ -1115,10 +1137,12 @@ main {
       margin: 0 auto;
       display: flex;
       flex-wrap: wrap;
+      
 
       .card-container {
         width: calc(100% / 6);
-        padding: 1rem;
+        padding: 0.5rem;
+        
 
         .card {
           border: 1px solid $median_cut2;
@@ -1155,7 +1179,7 @@ main {
             padding: 0.9rem;
 
             .category {
-              font-size: 0.7rem;
+              font-size: 0.6rem;
               color: $median_cut6;
               text-align: left;
 
@@ -1176,6 +1200,7 @@ main {
               align-items: center;
               border-top: 1px solid $median_cut2;
               padding-top: 0.8rem;
+              height: 2rem;
 
               .length {
                 display: flex;
