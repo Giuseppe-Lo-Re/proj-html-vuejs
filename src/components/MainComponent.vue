@@ -1137,12 +1137,12 @@ main {
       margin: 0 auto;
       display: flex;
       flex-wrap: wrap;
-      
+      padding-bottom: 4rem;
 
       .card-container {
         width: calc(100% / 6);
         padding: 0.5rem;
-        
+        cursor: pointer;
 
         .card {
           border: 1px solid $median_cut2;
@@ -1167,7 +1167,7 @@ main {
             }
 
             &.orange {
-              background-color: $color_cube7;
+              background-color: $median_cut7;
             }
           }
 
