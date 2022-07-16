@@ -31,6 +31,9 @@
               <!-- Background Image -->
               <img class="bg-img" src="../assets/img/base.png" alt="base">
 
+              <!-- Moon Image -->
+              <img class="moon-img" src="../assets/img/moon.png" alt="moon">
+
               <!-- Bubblespeech Image -->
               <img class="bubblespeech-img" src="../assets/img/bubblespeech.png" alt="bubblespeech">
 
@@ -106,12 +109,13 @@
               </div>
             </div>
         </div>
-
       </section>
 
-      <!-- Course List -->
+      <!-- "Course List" Section -->
       <section>
         <div class="container-sm">
+
+          <!-- First Row -->
           <div class="row">
 
             <!-- Software Development -->
@@ -181,6 +185,7 @@
             </div>
           </div>
 
+          <!-- Second Row -->
           <div class="row">
 
             <!-- Music -->
@@ -248,6 +253,36 @@
           </div>
         </div>
       </section>
+
+      <!-- "Limitess Learning" Section -->
+      <section>
+        <div class="colums-wrapper">
+
+          <!-- Column Left -->
+          <div class="col-left background-img">
+            <div class="container-sm">
+
+              <!-- Title -->
+              <h2>
+                Limitless learning, <br>
+                more possibilities
+              </h2>
+
+              <!-- Subtitle -->
+              <h3>
+                Online course open the opportunity for learning to <br>
+                almost anyone, regardless of their scheduling <br>
+                commitments.
+              </h3>
+
+              <!-- Sign Up Button -->
+              <a href="#" class="btn">
+                  read more
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 </template>
 
@@ -263,6 +298,7 @@ name: "MainComponent",
 
 main {
 
+  // "Start Investing" Section
   .colums-wrapper {
     display: flex;
     padding-top: 2rem;
@@ -271,6 +307,15 @@ main {
       width: 60%;
       padding-top: 7rem;
       padding-right: 1.8rem;
+      padding-inline: 0.6rem;
+
+      // Reuse for "Limitess Learning" Section
+      &.background-img {
+        width: 100%;
+        background-image: url("../assets/img/Untitled-1-1-1-1-1.png");
+        background-position: center;
+        padding-bottom: 7rem;
+      }
 
       h2 {
         font-size: 2.8rem;
@@ -279,7 +324,7 @@ main {
 
       h3 {
         font-size: 1rem;
-        font-weight: 100;
+        font-weight: 300;
         padding-block: 2rem;
       }
 
@@ -313,6 +358,14 @@ main {
         position: absolute;
         top: 90px;
         right: -97px;
+      }
+
+      .moon-img {
+        width: 3.5rem;
+        filter: grayscale(80%);
+        position: absolute;
+        top: 92px;
+        right: 204px;
       }
 
       .bubblespeech-img {
@@ -367,6 +420,7 @@ main {
     }
   }
   
+  // "Course List" Section
   .row {
     display: flex;
     justify-content: space-between;
@@ -376,7 +430,6 @@ main {
   .software-dev {
     width: calc(((100% / 3) - 0.25rem) * 2);
   }
-  
 
   .courses-description {
     display: flex;
@@ -395,8 +448,9 @@ main {
   }
 
   .col-thin-bottom {
-      width: calc((100% / 3) - 1.2rem);
-      
-    }
+    width: calc((100% / 3) - 1.2rem);
+  }
+
+
 }
 </style>
