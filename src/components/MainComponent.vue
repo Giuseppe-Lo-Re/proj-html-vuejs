@@ -136,8 +136,9 @@
             </div>
 
             <div class="col-wrapper">
+
               <!-- Art -->
-              <div class="art">
+              <div class="col-thin">
 
                 <!-- Course Image -->
                 <img src="../assets/img/cat_2-370x155.jpg" alt="art_img">
@@ -157,24 +158,90 @@
                 </div>
               </div>
 
-              <!-- Art -->
-              <div class="art">
+              <!-- Material Design -->
+              <div class="col-thin">
 
                 <!-- Course Image -->
-                <img src="../assets/img/cat_2-370x155.jpg" alt="art_img">
+                <img src="../assets/img/cat_3-370x155.jpg" alt="material-design_img">
 
                 <!-- Course Description -->
                 <div class="courses-description">
 
                   <!-- Course Type -->
                   <div>
-                    Art
+                    Material Design
                   </div>
 
                   <!-- Total Courses -->
                   <div>
-                    8 Courses
+                    5 Courses
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <!-- Music -->
+            <div class="col-thin-bottom">
+
+              <!-- Course Image -->
+              <img src="../assets/img/cat_5-370x155.jpg" alt="music_img">
+
+              <!-- Course Description -->
+              <div class="courses-description">
+
+                <!-- Course Type -->
+                <div>
+                  Music
+                </div>
+
+                <!-- Total Courses -->
+                <div>
+                  5 Courses
+                </div>
+              </div>
+            </div>
+
+            <!-- Exercise -->
+            <div class="col-thin-bottom">
+
+              <!-- Course Image -->
+              <img src="../assets/img/cat_4-370x155.jpg" alt="exercise_img">
+
+              <!-- Course Description -->
+              <div class="courses-description">
+
+                <!-- Course Type -->
+                <div>
+                  Exercise
+                </div>
+
+                <!-- Total Courses -->
+                <div>
+                  7 Courses
+                </div>
+              </div>
+            </div>
+
+            <!-- Photography -->
+            <div class="col-thin-bottom">
+
+              <!-- Course Image -->
+              <img src="../assets/img/cat_6-370x155.jpg" alt="photography_img">
+
+              <!-- Course Description -->
+              <div class="courses-description">
+
+                <!-- Course Type -->
+                <div>
+                  Photography
+                </div>
+
+                <!-- Total Courses -->
+                <div>
+                  4 Courses
                 </div>
               </div>
             </div>
@@ -273,10 +340,11 @@ main {
 
   .benefits {
     display: flex;
+    justify-content: space-between;
     padding-block: 4rem;
 
     .col-benefits {
-      width: calc(100% / 3);
+      width: calc((100% / 3) - 1.5rem);
       background-color:$material_design6;
       margin: 0.6rem;
       padding: 1.6rem;
@@ -301,26 +369,34 @@ main {
   
   .row {
     display: flex;
-    margin-inline: 0.6rem;
+    justify-content: space-between;
+    margin: 0.6rem;
   }
-  .software-dev {
-    width: calc((100% / 3)* 2);
 
-    img {
-      width: 102%;
-    }
+  .software-dev {
+    width: calc(((100% / 3) - 0.25rem) * 2);
   }
+  
 
   .courses-description {
     display: flex;
     justify-content: space-between;
     font-size: 0.7rem;
-    padding-block: 0.86rem;
+    padding-block: 1.16rem;
   }
 
-  .art {
-    padding-left: 1.2rem;
-    width: 18rem;
+  .col-wrapper {
+    width: 34%;
+
+    .col-thin {
+      width: 100%;
+      padding-left: 1.6rem;
+    }
   }
+
+  .col-thin-bottom {
+      width: calc((100% / 3) - 1.2rem);
+      
+    }
 }
 </style>
