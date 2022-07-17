@@ -1400,7 +1400,13 @@ main {
   // "We are Proud" Section
   .we-are-proud {
     background-color: $material_design6;
+    background-image: url("../assets/img/we_proud.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: 1500px;
     padding-top: 4rem;
+    padding-bottom:18rem;
     text-align: center;
 
     .titles-wrapper {
@@ -1435,6 +1441,7 @@ main {
         .number {
           font-size: 3rem;
           font-weight: 300;
+          padding-bottom: 0.7rem;
         }
 
         .text {
@@ -1443,9 +1450,7 @@ main {
           text-transform: uppercase;
         }
       }
-
     }
-
   }
 }
 </style>
