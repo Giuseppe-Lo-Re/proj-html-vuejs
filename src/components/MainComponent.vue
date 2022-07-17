@@ -19,7 +19,7 @@
                 With over 1200 courses in 18 subjects, you're guaranteed to find something that's right for you.
               </h3>
 
-              <!-- Sign Up Button -->
+              <!-- "Join for Free" Button -->
               <a href="#" class="btn">
                   join for free
               </a>
@@ -275,7 +275,7 @@
                 commitments.
               </h3>
 
-              <!-- Sign Up Button -->
+              <!-- "Read More" Button -->
               <a href="#" class="btn">
                   read more
               </a>
@@ -923,8 +923,44 @@
             </div>
             
           </div>
+
+          <!-- "Show All" Button -->
+          <a href="#" class="btn">
+              show all
+          </a>
+
+          <!-- Utility menù -->
+          <div class="utility-wrapper">
+
+              <!-- Monitor Icon -->
+              <div class="icon">
+                <i class="fa-solid fa-desktop"></i>
+              </div>
+
+              <!-- Life Ring Icon -->
+              <div class="icon">
+                <i class="fa-solid fa-life-ring"></i>
+              </div>
+
+              <!-- Wrench Icon -->
+              <div class="icon">
+                <i class="fa-solid fa-wrench"></i>
+              </div>
+
+              <!-- Cart Shopping Icon -->
+              <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+
+              <!-- Smartphone Icon -->
+              <div class="icon">
+                <i class="fa-solid fa-mobile-screen"></i>
+              </div>
+          </div>
         </div>
       </section>
+
+
     </main>
 </template>
 
@@ -1100,6 +1136,7 @@ main {
   // "Recent Course" Section
   .recent-course {
     text-align: center;
+    position: relative;
 
     h2 {
       font-size: 2.8rem;
@@ -1173,7 +1210,7 @@ main {
 
           &.selected {
           border: 1px solid $color_cube7;
-      }
+          }
           
           .details {
             padding: 0.9rem;
@@ -1227,8 +1264,6 @@ main {
                   }
                 }
               }
-
-
               .old-price {
                 font-size: 0.60rem;
                 font-weight: 500;
@@ -1250,6 +1285,39 @@ main {
         border: 1px solid $color_cube7;
       }
     }
+
+    .btn {
+        font-weight: 600;
+        margin-bottom: 4rem;
+      }
+
+      a {
+        font-size: 0.7rem;
+        display: inline-block;
+        background-color:$color_cube6;
+        color: $color_cube1;
+        border: 1px solid $color_cube6;
+        text-transform: uppercase;
+        padding: 1rem 1.4rem;
+        border-radius: 30px;
+        cursor: pointer;
+      }
+  
+  .utility-wrapper {
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    .icon {
+      padding-block: 0.6rem;
+      color: $median_cut6;
+      cursor: pointer;
+    }
+  }
   }
 }
 </style>

@@ -160,7 +160,7 @@
                             log in
                         </div>
 
-                        <!-- Sign Up Button -->
+                        <!-- "Sign Up" Button -->
                         <a href="#" class="btn">
                             sign up
                         </a>
