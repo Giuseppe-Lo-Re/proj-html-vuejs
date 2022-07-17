@@ -1038,6 +1038,52 @@
           </div>
         </div>
       </section>
+
+      <!-- Newsletter Section -->
+      <section>
+          <div class="newletter">
+            <div class="container-sm">
+              <div class="cols-wrapper">
+
+                <!-- Column Left -->
+                <div class="col-left">
+
+                  <!-- Title -->
+                  <div>
+                    Subscribe our newletter
+                  </div>
+
+                  <!-- Subtitle -->
+                  <div>
+                    There are many cariations of passages of Lorem Ipsum avaiable, but the majority have <br>
+                    suffered alteration in some form, by injected humour, or randomised words
+                  </div>
+                </div>
+
+                <!-- Column Right -->
+                <div class="col-right">
+
+                  <!-- Label -->
+                    <label for="newletter">
+                      Your e-mail address
+                    </label>
+
+                  <!-- Form -->
+                  <div class="form">
+
+                      <!-- Input -->
+                      <input type="text" placeholder="Enter you E-mail">
+
+                      <!-- Button -->
+                      <button type="submit">
+                          subscribe
+                      </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
     </main>
 </template>
 
@@ -1272,6 +1318,7 @@ main {
             top: 10px;
             right: 10px;
 
+            // Reuse with differents colors
             &.green {
               background-color: $color_cube2;
             }
@@ -1285,6 +1332,7 @@ main {
             }
           }
 
+          // Change color on selection
           &.selected {
           border: 1px solid $color_cube7;
           }
@@ -1332,6 +1380,7 @@ main {
                     color: $color_cube7;
                   }
                 }
+
                 .text {
                   font-size: 0.7rem;
                   padding-left: 0.2rem;
@@ -1341,6 +1390,7 @@ main {
                   }
                 }
               }
+
               .old-price {
                 font-size: 0.60rem;
                 font-weight: 500;
@@ -1449,6 +1499,25 @@ main {
           font-weight: 100;
           text-transform: uppercase;
         }
+      }
+    }
+  }
+
+  // Newletter Section
+  .newletter {
+    color: $color_cube1;
+    background-color: $color_cube2;
+
+    .cols-wrapper {
+      display: flex;
+
+      .col-left,
+      .col-right {
+        width: 50%;
+      }
+
+      .form {
+        display: flex;
       }
     }
   }
