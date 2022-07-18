@@ -341,6 +341,7 @@ header {
                     border-radius: 20px;
                     cursor: pointer;
 
+                    // Hover Effect
                     &:hover {
                         background-color: $color_cube8;
                         border: none;

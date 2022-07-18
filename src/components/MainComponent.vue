@@ -1587,7 +1587,7 @@ main {
         border-radius: 30px;
         cursor: pointer;
 
-
+        // Hover Effect
         &:hover {
           background-color: $color_cube8;
           border: none;
@@ -1653,8 +1653,10 @@ main {
       margin: 0.6rem;
       padding: 1.6rem;
 
+      // Hover Effect
       &:hover {
         transform: scale(1.15);
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       }
 
       i {
@@ -1791,8 +1793,11 @@ main {
           border: 1px solid $color_cube7;
           }
 
+          // Hover effect
           &:hover {
             border: 1px solid $color_cube6;
+            transform: scale(1.05);
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
           }
           
           .details {
@@ -1887,6 +1892,7 @@ main {
         border-radius: 30px;
         cursor: pointer;
 
+        // Hover Effect
         &:hover {
           background-color: $color_cube2;
           border: none;
@@ -1907,6 +1913,11 @@ main {
       padding-block: 0.6rem;
       color: $median_cut6;
       cursor: pointer;
+
+      // Hover Effect
+      &:hover {
+        color: $color_cube2;
+      }
     }
   }
 }
@@ -2113,8 +2124,11 @@ main {
           border: 1px solid $color_cube7;
           }
           
+          // Hover effect
           &:hover {
             border: 1px solid $color_cube2;
+            transform: scale(1.05);
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
           }
 
           .details {
@@ -2211,6 +2225,7 @@ main {
         color: $median_cut2;
         cursor: pointer;
 
+        // Hover Effect
         &:hover {
           border: none;
           background-color: $median_cut1;
@@ -2256,7 +2271,6 @@ main {
       border: 1px solid $median_cut2;
       padding-top: 3rem;
       margin: 0.7rem;
-      // padding: 2rem 1rem;
     }
 
     .btn {
@@ -2276,6 +2290,7 @@ main {
         border-radius: 30px;
         cursor: pointer;
 
+        // Hover Effect
         &:hover {
           background-color: $color_cube2;
           border: none;
