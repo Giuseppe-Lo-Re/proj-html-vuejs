@@ -1533,6 +1533,7 @@
 <script>
 export default {
 name: "MainComponent",
+
 }
 </script>
 

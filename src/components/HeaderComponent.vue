@@ -23,43 +23,21 @@
                     <!-- Menu Links -->
                     <ul class="menu-links">
 
-                        <li>
-                            link
-                        </li>
-
-                        <li class="relative">
-
+                        <!-- Links via props from data "headerLinks" -->
+                        <li 
+                        v-for="(link, index) in links"
+                        :key= "index"
+                        >
                             <!-- Notification -->
-                            <div class="new on-second">
-                                new
-                            </div>
-                            link
-                        </li>
-
-                        <li>
-                            link
-                        </li>
-
-                        <li>
-                            link
-                        </li>
-
-                        <li>
-                            link
-                        </li>
-
-                        <li>
-
-                            <!-- Notification -->
-                            <div class="new on-sixth">
+                            <div 
+                                v-if="link.isNew"  
+                                :class="{'new':link.isNew, 'on-second':link.isNew, }">
                                 new
                             </div>
 
-                            link
-                        </li>
-
-                        <li>
-                            link
+                            <a :href="link.url">
+                                {{ link.category }}
+                            </a>
                         </li>
                     </ul>
 
@@ -179,7 +157,10 @@
 
 <script>
 export default {
-name: "HeaderComponent"
+name: "HeaderComponent",
+props: { 
+    links: Array
+}
 }
 </script>
 
@@ -209,11 +190,11 @@ header {
 
             .menu-links {
                 display: flex;
-                position: relative;
-        
+
                 li {
                     list-style-type: none;
                     padding-inline: 0.6rem;
+                    position: relative;
                     cursor: pointer;
 
                     .new {
@@ -228,7 +209,7 @@ header {
                         &.on-second {
                             position: absolute;
                             top: -18px;
-                            left: 54px;
+                            left: 32px;
                         }
 
                         &.on-sixth {

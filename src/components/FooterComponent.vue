@@ -88,36 +88,33 @@
           </h5>
 
           <div class="ul-wrapper">
+
+            <!-- Links via props from data "footerLinks1" -->
             <ul>
-              <li>
-                <span>link</span> 
+              <li 
+                v-for="(link, index) in links1"
+                :key= "index"
+                >
+                <span>
+                  <a :href="link.url">
+                    {{ link.category }}
+                  </a>
+                </span> 
               </li>
-
-              <li>
-                <span>link</span> 
-              </li>
-
-
-              <li>
-                <span>link</span> 
-              </li>
-
             </ul>
 
+            <!-- Links via props from data "footerLinks2" -->
             <ul>
-              <li>
-                <span>link</span> 
+              <li 
+                v-for="(link, index) in links2"
+                :key= "index"
+                >
+                <span>
+                  <a :href="link.url">
+                    {{ link.category }}
+                  </a>
+                </span> 
               </li>
-
-              <li>
-                <span>link</span> 
-              </li>
-
-
-              <li>
-                <span>link</span> 
-              </li>
-
             </ul>
           </div>
         </li>
@@ -191,7 +188,11 @@
 
 <script>
 export default {
-name: "FooterComponent"
+name: "FooterComponent",
+props: { 
+  links1: Array,
+  links2: Array
+}
 }
 </script>
 
@@ -257,7 +258,10 @@ footer {
 
         li {
           padding-right: 2rem;
-          cursor: pointer;
+
+          a {
+            color:$median_cut6;
+          }
         }
       }
 
