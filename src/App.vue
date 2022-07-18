@@ -3,7 +3,9 @@
 
     <!-- Header -->
     <HeaderComponent 
+    
       :links="headerLinks"
+      :socials="socialsLinks"
       />
 
     <!-- Main -->
@@ -65,6 +67,40 @@ export default {
           category: 'Demos',
           url: '#',
           isNew: false
+        }
+      ],
+      socialsLinks: [
+        {
+          icon: 'fa-brands fa-twitter',
+          url:'#'
+        },
+        {
+          icon: 'fa-brands fa-instagram',
+          url:'#'
+        },
+        {
+          icon: 'fa-brands fa-behance',
+          url:'#'
+        },
+        {
+          icon: 'fa-solid fa-basketball',
+          url:'#'
+        },
+        {
+          icon: 'fa-brands fa-flickr',
+          url:'#'
+        },
+        {
+          icon: 'fa-brands fa-git',
+          url:'#'
+        },
+        {
+          icon: 'fa-brands fa-linkedin',
+          url:'#'
+        },
+        {
+          icon: 'fa-brands fa-pinterest',
+          url:'#'
         }
       ],
       footerLinks1: [

@@ -25,8 +25,8 @@
 
                         <!-- Links via props from data "headerLinks" -->
                         <li 
-                        v-for="(link, index) in links"
-                        :key= "index"
+                            v-for="(link, index) in links"
+                            :key= "index"
                         >
                             <!-- Notification -->
                             <div 
@@ -44,36 +44,13 @@
                     <!-- Socials Links -->
                     <ul class="socials-links">
 
-                        <li>
-                            <i class="fa-brands fa-twitter"></i>
-                        </li>
-
-                        <li>
-                            <i class="fa-brands fa-instagram"></i>
-                        </li>
-
-                        <li>
-                            <i class="fa-brands fa-behance"></i>
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-basketball"></i>
-                        </li>
-
-                        <li>
-                            <i class="fa-brands fa-flickr"></i>
-                        </li>
-
-                        <li>
-                            <i class="fa-brands fa-git"></i>
-                        </li>
-
-                        <li>
-                            <i class="fa-brands fa-linkedin"></i>
-                        </li>
-
-                        <li>
-                            <i class="fa-brands fa-pinterest"></i>
+                        <!-- Icons via props from data "socialsLinks" -->
+                        <li 
+                            v-for="(social, index) in socials"
+                            :key="index"
+                        >
+                            <a :href="social.url"></a>
+                            <i :class="social.icon"></i>
                         </li>
                     </ul>
                 </div>
@@ -159,7 +136,8 @@
 export default {
 name: "HeaderComponent",
 props: { 
-    links: Array
+    links: Array,
+    socials: Array
 }
 }
 </script>
@@ -226,7 +204,6 @@ header {
                 display: flex;
                 font-size: 0.75rem;
                 
-        
                 li {
                     list-style-type: none;
                     padding-inline: 0.3rem;
