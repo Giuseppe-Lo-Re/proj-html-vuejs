@@ -179,7 +179,7 @@ header {
                         background-color: $color_cube8;
                         color: $color_cube1;
                         text-transform: uppercase;
-                        font-size: 0.5rem;
+                        font-size: 0.45rem;
                         padding: 0.1rem 0.25rem;
                         border-radius: 3px;
                         border-bottom-left-radius: 0px;

@@ -2,112 +2,112 @@
 
   <!-- "Start Investing" Section -->
     <section>
-    <div class="container-sm">
-        <div class="colums-wrapper">
+        <div class="container-sm">
+            <div class="colums-wrapper">
 
-        <!-- Column Left -->
-        <div class="col-left">
-            
-            <!-- Title -->
-            <h2>
-            Start Investing in You
-            </h2>
+                <!-- Column Left -->
+                <div class="col-left">
+                    
+                    <!-- Title -->
+                    <h2>
+                    Start Investing in You
+                    </h2>
 
-            <!-- Subtitle -->
-            <h3>
-            With over 1200 courses in 18 subjects, you're guaranteed to find something that's right for you.
-            </h3>
+                    <!-- Subtitle -->
+                    <h3>
+                    With over 1200 courses in 18 subjects, you're guaranteed to find something that's right for you.
+                    </h3>
 
-            <!-- "Join for Free" Button -->
-            <a href="#" class="btn">
-                join for free
-            </a>
+                    <!-- "Join for Free" Button -->
+                    <a href="#" class="btn">
+                        join for free
+                    </a>
+                </div>
+
+                <!-- Column Right -->
+                <div class="col-right">
+
+                    <!-- Background Image -->
+                    <img class="bg-img" src="../assets/img/base.png" alt="base">
+
+                    <!-- Moon Image -->
+                    <img class="moon-img" src="../assets/img/moon.png" alt="moon">
+
+                    <!-- Bubblespeech Image -->
+                    <img class="bubblespeech-img" src="../assets/img/bubblespeech.png" alt="bubblespeech">
+
+                    <!-- Book 1 Image -->
+                    <img class="book1-img" src="../assets/img/book1.png" alt="book1">
+
+                    <!-- Book 2 Image -->
+                    <img class="book2-img" src="../assets/img/book2.png" alt="book2">
+
+                    <!-- Magnifier Image -->
+                    <img class="magnifier-img" src="../assets/img/magnifier.png" alt="magnifier">
+                </div>
+            </div>
+
+            <!-- Benefits -->
+            <div class="benefits">
+
+                <!-- "Worldwide Recognize" -->
+                <div class="col-benefits">
+
+                    <!-- Icon -->
+                    <div>
+                        <i class="fa-solid fa-earth-africa"></i>
+                    </div>
+
+                    <!-- Title -->
+                    <h4>
+                        Worldwide Recognize
+                    </h4>
+
+                    <!-- Text -->
+                    <div class="text-benefits">
+                        Our online course certificates can be used around the world and also in most popular universities and companies.
+                    </div>
+                </div>
+
+                <!-- "Mostly Online Learning" -->
+                <div class="col-benefits">
+
+                    <!-- Icon -->
+                    <div>
+                        <i class="fa-solid fa-desktop"></i>
+                    </div>
+
+                    <!-- Title -->
+                    <h4>
+                        Mostly Online Learning (sd)
+                    </h4>
+
+                    <!-- Text -->
+                    <div class="text-benefits">
+                        Masterstudy online certificates can be obtained in a range of specialized areas and typically take about a year to complete.
+                    </div>
+                </div>
+
+                <!-- "Graduate in as little as 1 Year" -->
+                <div class="col-benefits">
+
+                    <!-- Icon -->
+                    <div>
+                        <i class="fa-solid fa-calendar-check"></i>
+                    </div>
+
+                    <!-- Title -->
+                    <h4>
+                        Graduate in as little as 1 Year
+                    </h4>
+
+                    <!-- Text -->
+                    <div class="text-benefits">
+                        Online post-graduate certificates are a popular way to develop your professional qualifications of Masterstudy.
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <!-- Column Right -->
-        <div class="col-right">
-
-            <!-- Background Image -->
-            <img class="bg-img" src="../assets/img/base.png" alt="base">
-
-            <!-- Moon Image -->
-            <img class="moon-img" src="../assets/img/moon.png" alt="moon">
-
-            <!-- Bubblespeech Image -->
-            <img class="bubblespeech-img" src="../assets/img/bubblespeech.png" alt="bubblespeech">
-
-            <!-- Book 1 Image -->
-            <img class="book1-img" src="../assets/img/book1.png" alt="book1">
-
-            <!-- Book 2 Image -->
-            <img class="book2-img" src="../assets/img/book2.png" alt="book2">
-
-            <!-- Magnifier Image -->
-            <img class="magnifier-img" src="../assets/img/magnifier.png" alt="magnifier">
-        </div>
-        </div>
-
-        <!-- Benefits -->
-        <div class="benefits">
-
-            <!-- "Worldwide Recognize" -->
-            <div class="col-benefits">
-
-            <!-- Icon -->
-            <div>
-                <i class="fa-solid fa-earth-africa"></i>
-            </div>
-
-            <!-- Title -->
-            <h4>
-                Worldwide Recognize
-            </h4>
-
-            <!-- Text -->
-            <div class="text-benefits">
-                Our online course certificates can be used around the world and also in most popular universities and companies.
-            </div>
-            </div>
-
-            <!-- "Mostly Online Learning" -->
-            <div class="col-benefits">
-
-            <!-- Icon -->
-            <div>
-                <i class="fa-solid fa-desktop"></i>
-            </div>
-
-            <!-- Title -->
-            <h4>
-                Mostly Online Learning (sd)
-            </h4>
-
-            <!-- Text -->
-            <div class="text-benefits">
-                Masterstudy online certificates can be obtained in a range of specialized areas and typically take about a year to complete.
-            </div>
-            </div>
-
-            <!-- "Graduate in as little as 1 Year" -->
-            <div class="col-benefits">
-
-            <!-- Icon -->
-            <div>
-                <i class="fa-solid fa-calendar-check"></i>
-            </div>
-
-            <!-- Title -->
-            <h4>
-                Graduate in as little as 1 Year
-            </h4>
-
-            <!-- Text -->
-            <div class="text-benefits">
-                Online post-graduate certificates are a popular way to develop your professional qualifications of Masterstudy.
-            </div>
-            </div>
-        </div>
-    </div>
     </section>
 </template>
 
