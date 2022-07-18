@@ -282,9 +282,13 @@ header {
             }
 
             .enterprise {
-                padding-inline: 1.2rem;
+                padding-left: 1.2rem;
+                padding-right: 3.5rem;
             }
 
+            .log-in {
+                color: $color_cube6;
+            }
             .user-access {
                 display: flex;
                 align-items: center;
