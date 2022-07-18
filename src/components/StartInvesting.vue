@@ -123,8 +123,8 @@ export default {
 
 // "Start Investing" Section
 .colums-wrapper {
-display: flex;
-padding-top: 2rem;
+    display: flex;
+    padding-top: 2rem;
 
 .col-left {
     width: 60%;
@@ -134,36 +134,36 @@ padding-top: 2rem;
 
     // Reuse for "Limitess Learning" Section
     &.background-img {
-    width: 100%;
-    background-image: url("../assets/img/Untitled-1-1-1-1-1.png");
-    background-position: center;
-    padding-bottom: 7rem;
+        width: 100%;
+        background-image: url("../assets/img/Untitled-1-1-1-1-1.png");
+        background-position: center;
+        padding-bottom: 7rem;
     }
 
     h2 {
-    font-size: 2.8rem;
-    font-weight: 200;
+        font-size: 2.8rem;
+        font-weight: 200;
     }
 
     h3 {
-    font-size: 1rem;
-    font-weight: 300;
-    padding-block: 2rem;
+        font-size: 1rem;
+        font-weight: 300;
+        padding-block: 2rem;
     }
 
     .btn {
-    font-weight: 600;
+        font-weight: 600;
     }
 
     a {
-    font-size: 0.7rem;
-    display: inline-block;
-    background-color:$color_cube6;
-    color: $color_cube1;
-    text-transform: uppercase;
-    padding: 1rem 1.4rem;
-    border-radius: 30px;
-    transition: all 1000ms;
+        font-size: 0.7rem;
+        display: inline-block;
+        background-color:$color_cube6;
+        color: $color_cube1;
+        text-transform: uppercase;
+        padding: 1rem 1.4rem;
+        border-radius: 30px;
+        transition: all 1000ms;
 
     // Hover Effect
     &:hover {
@@ -179,43 +179,43 @@ padding-top: 2rem;
     position: relative;
     
     .bg-img {
-    width: 30rem;
+        width: 30rem;
     }
 
     .book1-img {
-    width: 9rem;
-    position: absolute;
-    top: 90px;
-    right: -97px;
+        width: 9rem;
+        position: absolute;
+        top: 90px;
+        right: -97px;
     }
 
     .moon-img {
-    width: 3.5rem;
-    filter: grayscale(80%);
-    position: absolute;
-    top: 92px;
-    right: 204px;
+        width: 3.5rem;
+        filter: grayscale(80%);
+        position: absolute;
+        top: 92px;
+        right: 204px;
     }
 
     .bubblespeech-img {
-    width: 3.5rem;
-    position: absolute;
-    top: 52px;
-    right: -95px;
+        width: 3.5rem;
+        position: absolute;
+        top: 52px;
+        right: -95px;
     }
 
     .book2-img {
-    width: 11.5rem;
-    position: absolute;
-    bottom: 44px;
-    right: -15px;
+        width: 11.5rem;
+        position: absolute;
+        bottom: 44px;
+        right: -15px;
     }
 
     .magnifier-img {
-    width: 3.8rem;
-    position: absolute;
-    bottom: 95px;
-    right: -84px;
+        width: 3.8rem;
+        position: absolute;
+        bottom: 95px;
+        right: -84px;
     }
 }
 }
@@ -226,33 +226,33 @@ padding-top: 2rem;
     padding-block: 4rem;
 
     .col-benefits {
-      width: calc((100% / 3) - 1.5rem);
-      background-color:$material_design6;
-      margin: 0.6rem;
-      padding: 1.6rem;
-      transition: all 1000ms;
+        width: calc((100% / 3) - 1.5rem);
+        background-color:$material_design6;
+        margin: 0.6rem;
+        padding: 1.6rem;
+        transition: all 1000ms;
 
-      // Hover Effect
-      &:hover {
-        transform: scale(1.15);
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-      }
+        // Hover Effect
+        &:hover {
+            transform: scale(1.15);
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        }
 
-      i {
-        font-size: 2rem;
-        color: $color_cube6;
-      }
+        i {
+            font-size: 2rem;
+            color: $color_cube6;
+        }
 
-      h4 {
-        font-weight:400;
-        font-size: 0.8rem;
-        padding-block: 1.5rem;
-      }
+        h4 {
+            font-weight:400;
+            font-size: 0.8rem;
+            padding-block: 1.5rem;
+        }
 
-      .text-benefits {
-        font-size: 0.6rem;
-        color:$median_cut6;
-      }
+        .text-benefits {
+            font-size: 0.6rem;
+            color:$median_cut6;
+        }
     }
   }
 </style>

@@ -4,6 +4,7 @@
         <!-- Header Top -->
         <div class="header-top">
             <div class="container-lg flex">
+
                 <!-- Language Menù-->
                 <div class="language-menu">
 
@@ -20,10 +21,11 @@
                 
                 <!-- Navbar Top-->
                 <div class="navbar-top">
+
                     <!-- Menu Links -->
                     <ul class="menu-links">
 
-                        <!-- Links via props from data "headerLinks" -->
+                        <!-- V-for links via props from data "headerLinks" -->
                         <li 
                             v-for="(link, index) in links"
                             :key= "index"
@@ -44,7 +46,7 @@
                     <!-- Socials Links -->
                     <ul class="socials-links">
 
-                        <!-- Icons via props from data "socialsLinks" -->
+                        <!-- V-for icons via props from data "socialsLinks" -->
                         <li 
                             v-for="(social, index) in socials"
                             :key="index"
@@ -107,6 +109,7 @@
 
                     <!-- User Access -->
                     <div class="user-access">
+                        
                         <!-- Log in -->
                         <div class="log-in">
 
@@ -148,6 +151,7 @@ props: {
 
 header {
     padding-block: 1.25rem;
+
     .header-top {
         border-bottom: 0.063rem solid lightgrey;
         color:$median_cut6;
@@ -244,7 +248,7 @@ header {
             }
 
             textarea:focus, input:focus {
-            outline: none;
+                outline: none;
             }
 
             button {
@@ -314,6 +318,7 @@ header {
         }
     }  
 }
+
 .flex {
     display: flex;
     justify-content: space-between;

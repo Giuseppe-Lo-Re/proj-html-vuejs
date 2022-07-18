@@ -1,66 +1,66 @@
 <template>
   <!-- "Instructor/Business" Section -->
     <section>
-    <div class="container-lg">
-        <div class="instructor-business">
+        <div class="container-lg">
+            <div class="instructor-business">
 
-        <!-- "Become an Instructor" -->
-        <div class="col-left">
-            
-            <!-- Image -->
-            <div class="img-container">
-            <img src="../assets/img/image_box_1-221x231.png" alt="instructor">
-            </div>
+                <!-- "Become an Instructor" -->
+                <div class="col-left">
+                    
+                    <!-- Image -->
+                    <div class="img-container">
+                        <img src="../assets/img/image_box_1-221x231.png" alt="instructor">
+                    </div>
 
-            <div class="wrapper">
+                    <div class="wrapper">
 
-            <!-- Title -->
-            <h3>
-                Become an Instructor
-            </h3>
+                        <!-- Title -->
+                        <h3>
+                            Become an Instructor
+                        </h3>
 
-            <!-- Subtitle -->
-            <h4>
-                Teach what you love. Masterstudy gives you <br>
-                the tools to create a course.
-            </h4>
+                        <!-- Subtitle -->
+                        <h4>
+                            Teach what you love. Masterstudy gives you <br>
+                            the tools to create a course.
+                        </h4>
 
-            <!-- "Start Teaching" Button -->
-            <a href="#" class="btn">
-                start teaching
-            </a>
+                        <!-- "Start Teaching" Button -->
+                        <a href="#" class="btn">
+                            start teaching
+                        </a>        
+                    </div>
+                </div>
+
+                <!-- "Setup For Business" -->
+                <div class="col-right">
+                    
+                    <!-- Image -->
+                    <div class="img-container">
+                        <img src="../assets/img/image_box_2-234x231.png" alt="business">
+                    </div>
+
+                    <div class="wrapper">
+
+                        <!-- Title -->
+                        <h3>
+                            Setup For Business
+                        </h3>
+
+                        <!-- Subtitle -->
+                        <h4>
+                            Get Ulimited accesss to 2,500 of Udemy's top <br>
+                            courses for your team.
+                        </h4>
+
+                        <!-- "Doing Business" Button -->
+                        <a href="#" class="btn">
+                            doing business
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <!-- "Setup For Business" -->
-        <div class="col-right">
-            
-            <!-- Image -->
-            <div class="img-container">
-            <img src="../assets/img/image_box_2-234x231.png" alt="business">
-            </div>
-
-            <div class="wrapper">
-
-            <!-- Title -->
-            <h3>
-                Setup For Business
-            </h3>
-
-            <!-- Subtitle -->
-            <h4>
-                Get Ulimited accesss to 2,500 of Udemy's top <br>
-                courses for your team.
-            </h4>
-
-            <!-- "Doing Business" Button -->
-            <a href="#" class="btn">
-                doing business
-            </a>
-            </div>
-        </div>
-        </div>
-    </div>
     </section>
 </template>
 
@@ -76,14 +76,14 @@ export default {
 
 // "Instructor/Business" Section
 .instructor-business {
-display: flex;
-padding-block: 4.5rem;
+    display: flex;
+    padding-block: 4.5rem;
 
 .img-container {
     padding-left: 2rem;
 
     img {
-    width: 10.5rem;
+        width: 10.5rem;
     }
 }
 
@@ -119,14 +119,14 @@ h4 {
     }
 
     a {
-    font-size: 0.7rem;
-    display: inline-block;
-    background-color:$color_cube6;
-    color: $color_cube1;
-    text-transform: uppercase;
-    padding: 0.8rem 1.3rem;
-    border-radius: 30px;
-    transition: all 1000ms;
+        font-size: 0.7rem;
+        display: inline-block;
+        background-color:$color_cube6;
+        color: $color_cube1;
+        text-transform: uppercase;
+        padding: 0.8rem 1.3rem;
+        border-radius: 30px;
+        transition: all 1000ms;
 
     // Hover Effect
     &:hover {

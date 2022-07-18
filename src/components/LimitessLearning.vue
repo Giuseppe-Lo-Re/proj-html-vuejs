@@ -1,12 +1,12 @@
 <template>
 
   <!-- "Limitess Learning" Section -->
-    <section>
+  <section>
     <div class="colums-wrapper">
 
         <!-- Column Left -->
         <div class="col-left background-img">
-        <div class="container-sm">
+          <div class="container-sm">
 
             <!-- Title -->
             <h2>
@@ -25,10 +25,10 @@
             <a href="#" class="btn">
                 read more
             </a>
-        </div>
+          </div>
         </div>
     </div>
-    </section>
+  </section>
 </template>
 
 <script>
@@ -140,5 +140,4 @@ export default {
       }
     }
   }
-
 </style>

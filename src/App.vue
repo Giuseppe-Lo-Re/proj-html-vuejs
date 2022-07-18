@@ -5,7 +5,7 @@
     <HeaderComponent 
       :links="headerLinks"
       :socials="socialsLinks"
-      />
+    />
 
     <!-- Main -->
     <MainComponent />
@@ -13,7 +13,8 @@
     <!-- Footer -->
     <FooterComponent 
       :links1="footerLinks1"
-      :links2="footerLinks2"/>
+      :links2="footerLinks2"
+    />
   </div>
 </template>
 
@@ -137,5 +138,4 @@ export default {
 
 <style lang="scss">
 @import "./style/common.scss";
-
 </style>

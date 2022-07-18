@@ -2,342 +2,344 @@
     <section>
         <div class="popular-courses">
 
-        <!-- Title -->
-        <h2>
-            Popular courses
-        </h2>
+            <!-- Title -->
+            <h2>
+                Popular courses
+            </h2>
 
-        <!-- Courses Cards -->
-        <div class="cards-container">
+            <!-- Courses Cards -->
+            <div class="cards-container">
 
-            <!-- Single Card -->
-            <div class="card-container">
-            <div class="card">
+                <!-- Single Card -->
+                <div class="card-container">
+                    <div class="card">
 
-                <!-- Image -->
-                <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
+                        <!-- Image -->
+                        <img src="../assets/img/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="web-coding">
 
-                <!-- Details -->
-                <div class="details">
+                        <!-- Details -->
+                        <div class="details">
 
-                <!-- Category -->
-                <div class="category">
-                    Apache
+                            <!-- Category -->
+                            <div class="category">
+                                Apache
 
-                    <!-- Chevron Right Icon -->
-                    <i class="fa-solid fa-chevron-right"></i>
-                </div>
+                                <!-- Chevron Right Icon -->
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
 
-                <!-- Name Course -->
-                <div class="name">
-                    Web Coding and Apache Basics
-                </div>
+                            <!-- Name Course -->
+                            <div class="name">
+                                Web Coding and Apache Basics
+                            </div>
 
-                <!-- Card Footer -->
-                <div class="card-footer">
-                    <div class="length">
+                            <!-- Card Footer -->
+                            <div class="card-footer">
+                                <div class="length">
 
-                    <!-- Clock Icon -->
-                    <i class="fa fa-clock"></i>
+                                    <!-- Clock Icon -->
+                                    <i class="fa fa-clock"></i>
 
-                    <!-- Course Length  -->
-                    <span class="text">
-                        6 hours
-                    </span>
-                    </div>
+                                    <!-- Course Length  -->
+                                    <span class="text">
+                                        6 hours
+                                    </span>
+                                </div>
 
-                    <!-- Price -->
-                    <div class="price">
-                    Free
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div>
-
-            <!-- Single Card with Sticker "Featured" & "New" -->
-            <div class="card-container">
-            <div class="card selected">
-
-                <!-- Image -->
-                <img src="../assets/img/cat_2-544x322.jpg" alt="art-painting">
-
-                <!-- Sticker "Featured" -->
-                <div class="sticker orange rotate-style">
-                    featured 
-                </div>
-
-                <!-- Sticker "New" -->
-                <div class="sticker green">
-                new
-                </div>
-
-                <!-- Details -->
-                <div class="details">
-
-                <!-- Category -->
-                <div class="category">
-                    Art
-
-                    <!-- Chevron Right Icon -->
-                    <i class="fa-solid fa-chevron-right"></i>
-                </div>
-
-                <!-- Name Course -->
-                <div class="name">
-                    Real Things Art painting by Jason Ni
-                </div>
-
-                <!-- Card Footer -->
-                <div class="card-footer">
-                    <div class="length">
-
-                    <!-- Clock Icon -->
-                    <i class="fa fa-clock"></i>
-
-                    <!-- Course Length  -->
-                    <span class="text">
-                        6 hours
-                    </span>
-                    </div>
-
-                    <!-- Price -->
-                    <div class="price">
-                    <!-- Old Price -->
-                    <div class="old-price">
-                        $60
-                    </div>
-
-                    <!-- New Price -->
-                    <div class="new-price">
-                        $45
-                    </div>
+                                <!-- Price -->
+                                <div class="price">
+                                    Free
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
-            </div>
-            </div>
 
-            <!-- Single Card with Sticker "Hot" & Stars -->
-            <div class="card-container">
-            <div class="card">
+                <!-- Single Card with Sticker "Featured" & "New" -->
+                <div class="card-container">
+                    <div class="card selected">
 
-                <!-- Image -->
-                <img src="../assets/img/course-preview-272x161.jpg" alt="basic-masterstudy">
+                        <!-- Image -->
+                        <img src="../assets/img/cat_2-544x322.jpg" alt="art-painting">
 
-                <!-- Sticker "Hot" -->
-                <div class="sticker red">
-                hot
-                </div>
-
-                <!-- Details -->
-                <div class="details">
-
-                <!-- Category -->
-                <div class="category">
-                    Software Development
-
-                    <!-- Chevron Right Icon -->
-                    <i class="fa-solid fa-chevron-right"></i>
-                </div>
-
-                <!-- Name Course -->
-                <div class="name">
-                    Basic of Masterstudy <br>
-                    <br>
-                </div>
-
-                <!-- Card Footer -->
-                <div class="card-footer">
-                    <div class="length">
-
-                    <!-- Stars -->
-                        <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                        <!-- Sticker "Featured" -->
+                        <div class="sticker orange rotate-style">
+                            featured 
                         </div>
 
-                    <!-- Course Length  -->
-                    <span class="text center">
-                        5
-                    </span>
-                    </div>
-
-                    <!-- Price -->
-                    <div class="price">
-                    Free
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div>
-
-            <!-- Single Card with Sticker "Special" & Stars -->
-            <div class="card-container">
-            <div class="card">
-
-                <!-- Image -->
-                <img src="../assets/img/photo-1496307042754-b4aa456c4a2d-544x322.jpeg" alt="djing">
-
-                <!-- Sticker "Special" -->
-                <div class="sticker orange">
-                special
-                </div>
-
-                <!-- Details -->
-                <div class="details">
-
-                <!-- Category -->
-                <div class="category">
-                    Electronic
-
-                    <!-- Chevron Right Icon -->
-                    <i class="fa-solid fa-chevron-right"></i>
-                </div>
-
-                <!-- Name Course -->
-                <div class="name">
-                    How to be a DJ? Make Electronic Music
-                </div>
-
-                <!-- Card Footer -->
-                <div class="card-footer">
-                    <div class="length">
-
-                    <!-- Stars -->
-                        <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                        <!-- Sticker "New" -->
+                        <div class="sticker green">
+                            new
                         </div>
 
-                    <!-- Course Length  -->
-                    <span class="text center">
-                        5
-                    </span>
-                    </div>
+                        <!-- Details -->
+                        <div class="details">
 
-                    <!-- Price -->
-                    <div class="price">
-                    <!-- Old Price -->
-                    <div class="old-price">
-                        $59
-                    </div>
+                            <!-- Category -->
+                            <div class="category">
+                                Art
 
-                    <!-- New Price -->
-                    <div class="new-price">
-                        $49
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div>
+                                <!-- Chevron Right Icon -->
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
 
-            <!-- Single Card -->
-            <div class="card-container">
-            <div class="card">
+                            <!-- Name Course -->
+                            <div class="name">
+                                Real Things Art painting by Jason Ni
+                            </div>
 
-                <!-- Image -->
-                <img src="../assets/img/photo-1416339134316-0e91dc9ded92-scaled-272x161.jpeg" alt="design">
+                            <!-- Card Footer -->
+                            <div class="card-footer">
+                                <div class="length">
 
-                <!-- Details -->
-                <div class="details">
+                                    <!-- Clock Icon -->
+                                    <i class="fa fa-clock"></i>
 
-                <!-- Category -->
-                <div class="category">
-                    Communication
+                                    <!-- Course Length  -->
+                                    <span class="text">
+                                        6 hours
+                                    </span>
+                                </div>
 
-                    <!-- Chevron Right Icon -->
-                    <i class="fa-solid fa-chevron-right"></i>
-                </div>
+                                <!-- Price -->
+                                <div class="price">
 
-                <!-- Name Course -->
-                <div class="name">
-                    Design Instruments for Communication
-                </div>
+                                    <!-- Old Price -->
+                                    <div class="old-price">
+                                        $60
+                                    </div>
 
-                <!-- Card Footer -->
-                <div class="card-footer">
-                    <div class="length">
-
-                    <!-- Clock Icon -->
-                    <i class="fa fa-clock"></i>
-
-                    <!-- Course Length  -->
-                    <span class="text">
-                        6 hours
-                    </span>
+                                    <!-- New Price -->
+                                    <div class="new-price">
+                                        $45
+                                    </div>
+                                </div>
+                            </div>              
+                        </div>
                     </div>
                 </div>
-                </div>
-            </div>
-            </div>
 
-            <!-- Single Card -->
-            <div class="card-container">
-            <div class="card">
+                <!-- Single Card with Sticker "Hot" & Stars -->
+                <div class="card-container">
+                    <div class="card">
 
-                <!-- Image -->
-                <img src="../assets/img/cathryn-lavery-67852-unsplash-544x322.jpg" alt="concept">
+                        <!-- Image -->
+                        <img src="../assets/img/course-preview-272x161.jpg" alt="basic-masterstudy">
 
-                <!-- Details -->
-                <div class="details">
+                        <!-- Sticker "Hot" -->
+                        <div class="sticker red">
+                            hot
+                        </div>
 
-                <!-- Category -->
-                <div class="category">
-                    Art
+                        <!-- Details -->
+                        <div class="details">
 
-                    <!-- Chevron Right Icon -->
-                    <i class="fa-solid fa-chevron-right"></i>
-                </div>
+                            <!-- Category -->
+                            <div class="category">
+                                Software Development
 
-                <!-- Name Course -->
-                <div class="name">
-                    make your COncept Right and Beautiful
-                </div>
+                                <!-- Chevron Right Icon -->
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
 
-                <!-- Card Footer -->
-                <div class="card-footer">
-                    <div class="length">
+                            <!-- Name Course -->
+                            <div class="name">
+                                Basic of Masterstudy <br>
+                                <br>
+                            </div>
 
-                    <!-- Clock Icon -->
-                    <i class="fa fa-clock"></i>
+                            <!-- Card Footer -->
+                            <div class="card-footer">
+                                <div class="length">
 
-                    <!-- Course Length  -->
-                    <span class="text">
-                        6 hours
-                    </span>
+                                    <!-- Stars -->
+                                        <div class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        </div>
+
+                                    <!-- Course Length  -->
+                                    <span class="text center">
+                                        5
+                                    </span>
+                                </div>
+
+                                <!-- Price -->
+                                <div class="price">
+                                    Free
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
 
-                    <!-- Price -->
-                    <div class="price">
-                    $70
+                <!-- Single Card with Sticker "Special" & Stars -->
+                <div class="card-container">
+                    <div class="card">
+
+                        <!-- Image -->
+                        <img src="../assets/img/photo-1496307042754-b4aa456c4a2d-544x322.jpeg" alt="djing">
+
+                        <!-- Sticker "Special" -->
+                        <div class="sticker orange">
+                            special
+                        </div>
+
+                        <!-- Details -->
+                        <div class="details">
+
+                            <!-- Category -->
+                            <div class="category">
+                                Electronic
+
+                                <!-- Chevron Right Icon -->
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+
+                            <!-- Name Course -->
+                            <div class="name">
+                                How to be a DJ? Make Electronic Music
+                            </div>
+
+                            <!-- Card Footer -->
+                            <div class="card-footer">
+                                <div class="length">
+
+                                    <!-- Stars -->
+                                        <div class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        </div>
+
+                                    <!-- Course Length  -->
+                                    <span class="text center">
+                                        5
+                                    </span>
+                                </div>
+
+                                <!-- Price -->
+                                <div class="price">
+
+                                    <!-- Old Price -->
+                                    <div class="old-price">
+                                        $59
+                                    </div>
+
+                                    <!-- New Price -->
+                                    <div class="new-price">
+                                        $49
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Single Card -->
+                <div class="card-container">
+                    <div class="card">
+
+                        <!-- Image -->
+                        <img src="../assets/img/photo-1416339134316-0e91dc9ded92-scaled-272x161.jpeg" alt="design">
+
+                        <!-- Details -->
+                        <div class="details">
+
+                            <!-- Category -->
+                            <div class="category">
+                                Communication
+
+                                <!-- Chevron Right Icon -->
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+
+                            <!-- Name Course -->
+                            <div class="name">
+                                Design Instruments for Communication
+                            </div>
+
+                            <!-- Card Footer -->
+                            <div class="card-footer">
+                                <div class="length">
+
+                                    <!-- Clock Icon -->
+                                    <i class="fa fa-clock"></i>
+
+                                    <!-- Course Length  -->
+                                    <span class="text">
+                                        6 hours
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Card -->
+                <div class="card-container">
+                    <div class="card">
+
+                        <!-- Image -->
+                        <img src="../assets/img/cathryn-lavery-67852-unsplash-544x322.jpg" alt="concept">
+
+                        <!-- Details -->
+                        <div class="details">
+
+                            <!-- Category -->
+                            <div class="category">
+                                Art
+
+                                <!-- Chevron Right Icon -->
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+
+                            <!-- Name Course -->
+                            <div class="name">
+                                make your COncept Right and Beautiful
+                            </div>
+
+                            <!-- Card Footer -->
+                            <div class="card-footer">
+                                <div class="length">
+
+                                    <!-- Clock Icon -->
+                                    <i class="fa fa-clock"></i>
+
+                                    <!-- Course Length  -->
+                                    <span class="text">
+                                        6 hours
+                                    </span>
+                                </div>
+
+                                <!-- Price -->
+                                <div class="price">
+                                    $70
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            </div>
-        </div>
 
-        <!-- "Turn Page" Button -->
-        <div class="turn-page">
+            <!-- "Turn Page" Button -->
+            <div class="turn-page">
 
-            <!-- Chevron Left Icon -->
-            <div>
-            <i class="fa-solid fa-chevron-left"></i>
-            </div>
+                <!-- Chevron Left Icon -->
+                <div>
+                <i class="fa-solid fa-chevron-left"></i>
+                </div>
 
-            <!-- Chevron Right Icon -->
-            <div>
-            <i class="fa-solid fa-chevron-right"></i>
+                <!-- Chevron Right Icon -->
+                <div>
+                <i class="fa-solid fa-chevron-right"></i>
+                </div>
             </div>
-        </div>
         </div>
     </section>
 </template>
@@ -466,7 +468,7 @@ export default {
                 text-align: left;
 
                 i {
-                font-size: 0.5rem;
+                    font-size: 0.5rem;
                 }
             }
 
@@ -496,8 +498,8 @@ export default {
                 .stars {
 
                     i {
-                    font-size: 0.5rem;
-                    color: $color_cube7;
+                        font-size: 0.5rem;
+                        color: $color_cube7;
                     }
                 }
 
@@ -506,7 +508,7 @@ export default {
                     padding-left: 0.2rem;
 
                     &.center {
-                    padding-top: 0.35rem;
+                        padding-top: 0.35rem;
                     }
                 }
                 }
@@ -529,7 +531,7 @@ export default {
 }
 
         .selected {
-        border: 1px solid $color_cube7;
+            border: 1px solid $color_cube7;
         }
     }
 }

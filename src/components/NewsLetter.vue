@@ -2,46 +2,46 @@
   <!-- Newsletter Section -->
     <section>
         <div class="newletter">
-        <div class="container-sm">
-            <div class="cols-wrapper">
+            <div class="container-sm">
+                <div class="cols-wrapper">
 
-            <!-- Column Left -->
-            <div class="col-left">
+                    <!-- Column Left -->
+                    <div class="col-left">
 
-                <!-- Title -->
-                <h4>
-                Subscribe our newletter
-                </h4>
+                        <!-- Title -->
+                        <h4>
+                        Subscribe our newletter
+                        </h4>
 
-                <!-- Subtitle -->
-                <p>
-                There are many cariations of passages of Lorem Ipsum avaiable, but the majority have <br>
-                suffered alteration in some form, by injected humour, or randomised words
-                </p>
-            </div>
+                        <!-- Subtitle -->
+                        <p>
+                        There are many cariations of passages of Lorem Ipsum avaiable, but the majority have <br>
+                        suffered alteration in some form, by injected humour, or randomised words
+                        </p>
+                    </div>
 
-            <!-- Column Right -->
-            <div class="col-right">
+                    <!-- Column Right -->
+                    <div class="col-right">
 
-                <!-- Label -->
-                <h4>
-                    Your e-mail address
-                </h4>
+                        <!-- Label -->
+                        <h4>
+                            Your e-mail address
+                        </h4>
 
-                <!-- Form -->
-                <div class="form">
+                        <!-- Form -->
+                        <div class="form">
 
-                    <!-- Input -->
-                    <input type="text" placeholder="Enter you E-mail">
+                            <!-- Input -->
+                            <input type="text" placeholder="Enter you E-mail">
 
-                    <!-- Button -->
-                    <button type="submit">
-                        subscribe
-                    </button>
+                            <!-- Button -->
+                            <button type="submit">
+                                subscribe
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            </div>
-        </div>
         </div>
     </section>
 </template>

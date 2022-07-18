@@ -75,6 +75,7 @@
             </div>
           </div>
 
+          <!-- E-mail -->
           <div class="mail">
             info@masterstudy.com
           </div>
@@ -90,7 +91,7 @@
 
           <div class="ul-wrapper">
 
-            <!-- Links via props from data "footerLinks1" -->
+            <!-- V-for links via props from data "footerLinks1" -->
             <ul>
               <li 
                 v-for="(link, index) in links1"
@@ -104,7 +105,7 @@
               </li>
             </ul>
 
-            <!-- Links via props from data "footerLinks2" -->
+            <!-- V-for links via props from data "footerLinks2" -->
             <ul>
               <li 
                 v-for="(link, index) in links2"
@@ -145,7 +146,7 @@
               <!-- Date -->
               <div class="date">
 
-                <!-- Two-Em Dash Unicode -->
+                <!-- Two-Em Dash Unicode (graphic element before date) -->
                 <span class="dash">
                   &#11834;
                   </span> 
@@ -172,7 +173,7 @@
               <!-- Date -->
               <div class="date">
 
-                <!-- Two-Em Dash Unicode -->
+                <!-- Two-Em Dash Unicode (graphic element before date) -->
                 <span class="dash">
                   &#11834;
                   </span> 
