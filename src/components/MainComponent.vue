@@ -1491,36 +1491,38 @@
       <!-- "Come As You Are" Section -->
       <section>
         <div class="comeasyouare">
-          <div class="wrapper">
+          <div class="container-sm">
+            <div class="wrapper">
 
-            <!-- Title -->
-            <h3>
-              Come as you are
-            </h3>
+              <!-- Title -->
+              <h3>
+                Come as you are
+              </h3>
 
-            <!-- Text -->
-            <p class="text">
-              MasterStudy used is an excellent workshop whether you come <br>
-              as a counselor, advisor, administrator, or faculty member. I am <br>
-              going home empowered. I am looking forward to attending <br>
-              the On Course MasterStudy and the MAsterStudy National <br>
-              COnference next year and facilitating the use of this excellent <br>
-              retention/student success course at my college.
-            </p>
+              <!-- Text -->
+              <p class="text">
+                MasterStudy used is an excellent workshop whether you come <br>
+                as a counselor, advisor, administrator, or faculty member. I am <br>
+                going home empowered. I am looking forward to attending <br>
+                the On Course MasterStudy and the MAsterStudy National <br>
+                COnference next year and facilitating the use of this excellent <br>
+                retention/student success course at my college.
+              </p>
 
-            <!-- Sign -->
-            <div class="sign">
-              Tim Sab
-            </div>
+              <!-- Sign -->
+              <div class="sign">
+                Tim Sab
+              </div>
 
-            <!-- Role -->
-            <div class="role">
-              General Developer, Stylemix Themes
-            </div>
+              <!-- Role -->
+              <div class="role">
+                General Developer, Stylemix Themes
+              </div>
 
-            <!-- Caret Right Icon -->
-            <div class="caret-right">
-              <i class="fa-solid fa-caret-right"></i>
+              <!-- Caret Right Icon -->
+              <div class="caret-right">
+                <i class="fa-solid fa-caret-right"></i>
+              </div>
             </div>
           </div>
         </div>
@@ -2258,6 +2260,7 @@ main {
       background-color: $color_cube1;
       width: 40%;
       padding: 3.5rem;
+      margin-left: 2rem;
       position: absolute;
       top: 72px;
       left: 255px;
