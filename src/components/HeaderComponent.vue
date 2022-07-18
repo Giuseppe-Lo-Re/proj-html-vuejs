@@ -340,6 +340,12 @@ header {
                     padding: 0.6rem 1.2rem;
                     border-radius: 20px;
                     cursor: pointer;
+
+                    &:hover {
+                        background-color: $color_cube8;
+                        border: none;
+                        transform: scale(1.1);
+                    }
                 }
 
                 .bookmark {

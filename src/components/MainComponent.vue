@@ -1586,6 +1586,13 @@ main {
         padding: 1rem 1.4rem;
         border-radius: 30px;
         cursor: pointer;
+
+
+        &:hover {
+          background-color: $color_cube8;
+          border: none;
+          transform: scale(1.1);
+        }
       }
     }
 
@@ -1645,6 +1652,10 @@ main {
       background-color:$material_design6;
       margin: 0.6rem;
       padding: 1.6rem;
+
+      &:hover {
+        transform: scale(1.15);
+      }
 
       i {
         font-size: 2rem;
@@ -1857,8 +1868,8 @@ main {
     }
 
     .btn {
-        font-weight: 600;
-        margin-bottom: 4rem;
+      font-weight: 600;
+      margin-bottom: 4rem;
       }
 
       a {
@@ -1871,6 +1882,12 @@ main {
         padding: 1rem 1.4rem;
         border-radius: 30px;
         cursor: pointer;
+
+        &:hover {
+          background-color: $color_cube2;
+          border: none;
+          transform: scale(1.1);
+        }
       }
   
   .utility-wrapper {
@@ -2185,6 +2202,12 @@ main {
         padding: 0.7rem 0.8rem;
         color: $median_cut2;
         cursor: pointer;
+
+        &:hover {
+          border: none;
+          background-color: $median_cut1;
+        }
+
       }
     }
   }
@@ -2244,6 +2267,12 @@ main {
         padding: 0.8rem 1.3rem;
         border-radius: 30px;
         cursor: pointer;
+
+        &:hover {
+          background-color: $color_cube2;
+          border: none;
+          transform: scale(1.1);
+        }
       }
   }
 
