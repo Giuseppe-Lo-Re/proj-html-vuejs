@@ -84,10 +84,11 @@ export default {
         padding: 1rem 1.4rem;
         border-radius: 30px;
         cursor: pointer;
+        transition: all 1000ms;
 
         // Hover Effect
         &:hover {
-          background-color: $color_cube8;
+          background-color: $color_cube7;
           border: none;
           transform: scale(1.1);
         }

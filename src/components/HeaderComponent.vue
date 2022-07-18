@@ -297,7 +297,7 @@ header {
                     text-transform: uppercase;
                     padding: 0.6rem 1.2rem;
                     border-radius: 20px;
-                    cursor: pointer;
+                    transition: all 1000ms;
 
                     // Hover Effect
                     &:hover {

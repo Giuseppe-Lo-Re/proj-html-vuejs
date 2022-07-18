@@ -126,11 +126,11 @@ h4 {
     text-transform: uppercase;
     padding: 0.8rem 1.3rem;
     border-radius: 30px;
-    cursor: pointer;
+    transition: all 1000ms;
 
     // Hover Effect
     &:hover {
-        background-color: $color_cube2;
+        background-color: $color_cube9;
         border: none;
         transform: scale(1.1);
     }

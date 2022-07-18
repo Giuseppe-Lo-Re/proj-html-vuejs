@@ -332,7 +332,7 @@
 
                 <!-- Name Course -->
                 <div class="name">
-                make your COncept Right and Beautiful
+                make your Concept Right and Beautiful
                 </div>
 
                 <!-- Card Footer -->
@@ -745,6 +745,7 @@ ul {
         border: 1px solid $median_cut2;
         position: relative;
         overflow: hidden;
+        transition: all 1000ms;
 
         .sticker {
         color: $color_cube1;
@@ -790,7 +791,7 @@ ul {
 
         // Hover effect
         &:hover {
-        border: 1px solid $color_cube2;
+        border: 1px solid $color_cube7;
         transform: scale(1.05);
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
         }
@@ -884,7 +885,7 @@ ul {
     text-transform: uppercase;
     padding: 1rem 1.4rem;
     border-radius: 30px;
-    cursor: pointer;
+    transition: all 1000ms;
 
     // Hover Effect
     &:hover {

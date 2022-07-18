@@ -405,6 +405,7 @@ export default {
             border: 1px solid $median_cut2;
             position: relative;
             overflow: hidden;
+            transition: all 1000ms;
 
             .sticker {
                 color: $color_cube1;

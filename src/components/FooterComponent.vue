@@ -210,7 +210,7 @@ footer {
 
     li {
       list-style-type: none;
-      padding-inline: 1rem;
+      padding-inline: 0.7rem;
 
       h5 {
         padding-bottom: 0.8rem;
@@ -274,7 +274,7 @@ footer {
         // Reduce space from bullet to li
         span {
           position: relative;
-          left: -20px;
+          left: -10px;
         }
       }
     }
@@ -294,7 +294,7 @@ footer {
         color: $median_cut6;
 
         h5 {
-          font-size: 0.7rem;
+          font-size: 0.6rem;
         }
 
         .date {

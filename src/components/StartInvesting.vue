@@ -163,11 +163,11 @@ padding-top: 2rem;
     text-transform: uppercase;
     padding: 1rem 1.4rem;
     border-radius: 30px;
-    cursor: pointer;
+    transition: all 1000ms;
 
     // Hover Effect
     &:hover {
-        background-color: $color_cube8;
+        background-color: $color_cube10;
         border: none;
         transform: scale(1.1);
     }
@@ -230,6 +230,7 @@ padding-top: 2rem;
       background-color:$material_design6;
       margin: 0.6rem;
       padding: 1.6rem;
+      transition: all 1000ms;
 
       // Hover Effect
       &:hover {
