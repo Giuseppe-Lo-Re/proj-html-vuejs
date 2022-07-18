@@ -2305,7 +2305,7 @@ main {
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 90rem ;
-    height: 32rem;
+    height: 33rem;
     position: relative;
 
     .wrapper {
