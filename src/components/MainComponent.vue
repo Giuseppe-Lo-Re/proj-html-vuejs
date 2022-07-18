@@ -2,287 +2,13 @@
     <main>
 
       <!-- "Start Investing" Section -->
-      <section>
-        <div class="container-sm">
-          <div class="colums-wrapper">
-
-            <!-- Column Left -->
-            <div class="col-left">
-              
-              <!-- Title -->
-              <h2>
-                Start Investing in You
-              </h2>
-
-              <!-- Subtitle -->
-              <h3>
-                With over 1200 courses in 18 subjects, you're guaranteed to find something that's right for you.
-              </h3>
-
-              <!-- "Join for Free" Button -->
-              <a href="#" class="btn">
-                  join for free
-              </a>
-            </div>
-
-            <!-- Column Right -->
-            <div class="col-right">
-
-              <!-- Background Image -->
-              <img class="bg-img" src="../assets/img/base.png" alt="base">
-
-              <!-- Moon Image -->
-              <img class="moon-img" src="../assets/img/moon.png" alt="moon">
-
-              <!-- Bubblespeech Image -->
-              <img class="bubblespeech-img" src="../assets/img/bubblespeech.png" alt="bubblespeech">
-
-              <!-- Book 1 Image -->
-              <img class="book1-img" src="../assets/img/book1.png" alt="book1">
-
-              <!-- Book 2 Image -->
-              <img class="book2-img" src="../assets/img/book2.png" alt="book2">
-
-              <!-- Magnifier Image -->
-              <img class="magnifier-img" src="../assets/img/magnifier.png" alt="magnifier">
-            </div>
-          </div>
-
-            <!-- Benefits -->
-            <div class="benefits">
-
-              <!-- "Worldwide Recognize" -->
-              <div class="col-benefits">
-
-                <!-- Icon -->
-                <div>
-                  <i class="fa-solid fa-earth-africa"></i>
-                </div>
-
-                <!-- Title -->
-                <h4>
-                  Worldwide Recognize
-                </h4>
-
-                <!-- Text -->
-                <div class="text-benefits">
-                  Our online course certificates can be used around the world and also in most popular universities and companies.
-                </div>
-              </div>
-
-              <!-- "Mostly Online Learning" -->
-              <div class="col-benefits">
-
-                <!-- Icon -->
-                <div>
-                  <i class="fa-solid fa-desktop"></i>
-                </div>
-
-                <!-- Title -->
-                <h4>
-                  Mostly Online Learning (sd)
-                </h4>
-
-                <!-- Text -->
-                <div class="text-benefits">
-                  Masterstudy online certificates can be obtained in a range of specialized areas and typically take about a year to complete.
-                </div>
-              </div>
-
-              <!-- "Graduate in as little as 1 Year" -->
-              <div class="col-benefits">
-
-                <!-- Icon -->
-                <div>
-                  <i class="fa-solid fa-calendar-check"></i>
-                </div>
-
-                <!-- Title -->
-                <h4>
-                  Graduate in as little as 1 Year
-                </h4>
-
-                <!-- Text -->
-                <div class="text-benefits">
-                  Online post-graduate certificates are a popular way to develop your professional qualifications of Masterstudy.
-                </div>
-              </div>
-            </div>
-        </div>
-      </section>
-
+      <StartInvesting />
+      
       <!-- "Course List" Section -->
-      <section>
-        <div class="container-sm">
-
-          <!-- First Row -->
-          <div class="row">
-
-            <!-- Software Development -->
-            <div class="software-dev">
-
-              <!-- Course Image -->
-              <img src="../assets/img/cat_1-1540x750.jpg" alt="software-devlopment_img">
-
-              <!-- Course Description -->
-              <div class="courses-description">
-
-                <!-- Course Type -->
-                <div>
-                  Software Development
-                </div>
-
-                <!-- Total Courses -->
-                <div>
-                  5 Courses
-                </div>
-              </div>
-            </div>
-
-            <div class="col-wrapper">
-
-              <!-- Art -->
-              <div class="col-thin">
-
-                <!-- Course Image -->
-                <img src="../assets/img/cat_2-370x155.jpg" alt="art_img">
-
-                <!-- Course Description -->
-                <div class="courses-description">
-
-                  <!-- Course Type -->
-                  <div>
-                    Art
-                  </div>
-
-                  <!-- Total Courses -->
-                  <div>
-                    8 Courses
-                  </div>
-                </div>
-              </div>
-
-              <!-- Material Design -->
-              <div class="col-thin">
-
-                <!-- Course Image -->
-                <img src="../assets/img/cat_3-370x155.jpg" alt="material-design_img">
-
-                <!-- Course Description -->
-                <div class="courses-description">
-
-                  <!-- Course Type -->
-                  <div>
-                    Material Design
-                  </div>
-
-                  <!-- Total Courses -->
-                  <div>
-                    5 Courses
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Second Row -->
-          <div class="row">
-
-            <!-- Music -->
-            <div class="col-thin-bottom">
-
-              <!-- Course Image -->
-              <img src="../assets/img/cat_5-370x155.jpg" alt="music_img">
-
-              <!-- Course Description -->
-              <div class="courses-description">
-
-                <!-- Course Type -->
-                <div>
-                  Music
-                </div>
-
-                <!-- Total Courses -->
-                <div>
-                  5 Courses
-                </div>
-              </div>
-            </div>
-
-            <!-- Exercise -->
-            <div class="col-thin-bottom">
-
-              <!-- Course Image -->
-              <img src="../assets/img/cat_4-370x155.jpg" alt="exercise_img">
-
-              <!-- Course Description -->
-              <div class="courses-description">
-
-                <!-- Course Type -->
-                <div>
-                  Exercise
-                </div>
-
-                <!-- Total Courses -->
-                <div>
-                  7 Courses
-                </div>
-              </div>
-            </div>
-
-            <!-- Photography -->
-            <div class="col-thin-bottom">
-
-              <!-- Course Image -->
-              <img src="../assets/img/cat_6-370x155.jpg" alt="photography_img">
-
-              <!-- Course Description -->
-              <div class="courses-description">
-
-                <!-- Course Type -->
-                <div>
-                  Photography
-                </div>
-
-                <!-- Total Courses -->
-                <div>
-                  4 Courses
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <CourseList />
 
       <!-- "Limitess Learning" Section -->
-      <section>
-        <div class="colums-wrapper">
-
-          <!-- Column Left -->
-          <div class="col-left background-img">
-            <div class="container-sm">
-
-              <!-- Title -->
-              <h2>
-                Limitless learning, <br>
-                more possibilities
-              </h2>
-
-              <!-- Subtitle -->
-              <h3>
-                Online course open the opportunity for learning to <br>
-                almost anyone, regardless of their scheduling <br>
-                commitments.
-              </h3>
-
-              <!-- "Read More" Button -->
-              <a href="#" class="btn">
-                  read more
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <LimitessLearning />
 
       <!-- "Recent Course" Section -->
       <section>
@@ -372,14 +98,19 @@
               </div>
             </div>
 
-            <!-- Single Card with Sticker -->
+            <!-- Single Card with Sticker "Featured" & "New" -->
             <div class="card-container">
               <div class="card selected">
 
                 <!-- Image -->
                 <img src="../assets/img/cat_2-544x322.jpg" alt="art-painting">
 
-                <!-- Sticker -->
+                <!-- Sticker "Featured" -->
+                <div class="sticker orange rotate-style">
+                  <span>featured</span> 
+                </div>
+
+                <!-- Sticker "New" -->
                 <div class="sticker green">
                   new
                 </div>
@@ -430,14 +161,14 @@
               </div>
             </div>
 
-            <!-- Single Card with Sticker & Stars -->
+            <!-- Single Card with Sticker "Hot" & Stars -->
             <div class="card-container">
               <div class="card">
 
                 <!-- Image -->
                 <img src="../assets/img/course-preview-272x161.jpg" alt="basic-masterstudy">
 
-                <!-- Sticker -->
+                <!-- Sticker "Hot" -->
                 <div class="sticker red">
                   hot
                 </div>
@@ -487,14 +218,14 @@
               </div>
             </div>
 
-            <!-- Single Card with Sticker & Stars -->
+            <!-- Single Card with Sticker "Special" & Stars -->
             <div class="card-container">
               <div class="card">
 
                 <!-- Image -->
                 <img src="../assets/img/photo-1496307042754-b4aa456c4a2d-544x322.jpeg" alt="djing">
 
-                <!-- Sticker -->
+                <!-- Sticker "Special" -->
                 <div class="sticker orange">
                   special
                 </div>
@@ -771,7 +502,7 @@
               </div>
             </div>
 
-            <!-- Single Card with Stars with Sticker -->
+            <!-- Single Card with Stars with Sticker "Special" -->
             <div class="card-container">
               <div class="card">
 
@@ -827,7 +558,7 @@
               </div>
             </div>
 
-            <!-- Single Card with Sticker -->
+            <!-- Single Card with Sticker "Special" -->
             <div class="card-container">
               <div class="card">
 
@@ -922,7 +653,6 @@
                 </div>
               </div>
             </div>
-            
           </div>
 
           <!-- "Show All" Button -->
@@ -1143,14 +873,19 @@
               </div>
             </div>
 
-            <!-- Single Card with Sticker -->
+            <!-- Single Card with Sticker "Featured" & "New" -->
             <div class="card-container">
               <div class="card selected">
 
                 <!-- Image -->
                 <img src="../assets/img/cat_2-544x322.jpg" alt="art-painting">
 
-                <!-- Sticker -->
+                <!-- Sticker "Featured" -->
+                <div class="sticker orange rotate-style">
+                  <span>featured</span> 
+                </div>
+
+                <!-- Sticker "New" -->
                 <div class="sticker green">
                   new
                 </div>
@@ -1201,14 +936,14 @@
               </div>
             </div>
 
-            <!-- Single Card with Sticker & Stars -->
+            <!-- Single Card with Sticker "Hot" & Stars -->
             <div class="card-container">
               <div class="card">
 
                 <!-- Image -->
                 <img src="../assets/img/course-preview-272x161.jpg" alt="basic-masterstudy">
 
-                <!-- Sticker -->
+                <!-- Sticker "Hot" -->
                 <div class="sticker red">
                   hot
                 </div>
@@ -1258,14 +993,14 @@
               </div>
             </div>
 
-            <!-- Single Card with Sticker & Stars -->
+            <!-- Single Card with Sticker "Special" & Stars -->
             <div class="card-container">
               <div class="card">
 
                 <!-- Image -->
                 <img src="../assets/img/photo-1496307042754-b4aa456c4a2d-544x322.jpeg" alt="djing">
 
-                <!-- Sticker -->
+                <!-- Sticker "Special" -->
                 <div class="sticker orange">
                   special
                 </div>
@@ -1531,8 +1266,17 @@
 </template>
 
 <script>
+import StartInvesting from "../components/StartInvesting";
+import CourseList from "../components/CourseList";
+import LimitessLearning from "../components/LimitessLearning";
+
 export default {
-name: "MainComponent",
+  name: "MainComponent",
+  components: {
+    StartInvesting,
+    CourseList,
+    LimitessLearning,
+  }
 
 }
 </script>
@@ -1764,6 +1508,7 @@ main {
         .card {
           border: 1px solid $median_cut2;
           position: relative;
+          overflow: hidden;
 
           .sticker {
             color: $color_cube1;
@@ -1774,6 +1519,19 @@ main {
             position: absolute;
             top: 10px;
             right: 10px;
+
+            // Use for Rotated Sticker
+            &.rotate-style {
+              width: 7.8rem;
+              height: 1.4rem;
+              font-size: 0.5rem;
+              font-weight: 800;
+              padding-top: 0.4rem;
+              transform: rotate(-45deg);
+              position: absolute;
+              top: 21px;
+              right: 104px;
+            }
 
             // Reuse with differents colors
             &.green {
@@ -1796,7 +1554,7 @@ main {
 
           // Hover effect
           &:hover {
-            border: 1px solid $color_cube6;
+            border: 1px solid $color_cube2;
             transform: scale(1.05);
             box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
           }
@@ -2095,6 +1853,7 @@ main {
         .card {
           border: 1px solid $median_cut2;
           position: relative;
+          overflow: hidden;
 
           .sticker {
             color: $color_cube1;
@@ -2105,6 +1864,19 @@ main {
             position: absolute;
             top: 10px;
             right: 10px;
+
+            // Use for Rotated Sticker
+            &.rotate-style {
+              width: 7.8rem;
+              height: 1.4rem;
+              font-size: 0.5rem;
+              font-weight: 800;
+              padding-top: 0.4rem;
+              transform: rotate(-45deg);
+              position: absolute;
+              top: 21px;
+              right: 104px;
+            }
 
             // Reuse with differents colors
             &.green {
