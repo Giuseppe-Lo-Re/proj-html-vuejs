@@ -231,12 +231,7 @@ footer {
         i {
           color:$median_cut6;
           cursor: pointer;
-
-          // Hover Effect
-          &:hover {
-            color: $color_cube8;
-          }
-      }
+        }
       }
 
       .phone-numbers {

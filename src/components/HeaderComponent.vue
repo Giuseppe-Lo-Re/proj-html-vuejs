@@ -250,13 +250,6 @@ header {
                     list-style-type: none;
                     padding-inline: 0.3rem;
                     cursor: pointer;
-
-                    i {
-                        // Hover Effect
-                        &:hover {
-                            color: $color_cube8;
-                        }
-                    }
                 }
             }
         }
