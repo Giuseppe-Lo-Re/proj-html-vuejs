@@ -257,6 +257,7 @@ footer {
 
         li {
           padding-right: 2rem;
+          cursor: pointer;
         }
       }
 
@@ -265,7 +266,8 @@ footer {
         font-size: 0.7rem;
         padding-block: 0.3rem;
 
-        span{
+        // Reduce space from bullet to li
+        span {
           position: relative;
           left: -10px;
         }
@@ -275,6 +277,7 @@ footer {
     .news-wrapper {
       display: flex;
       padding-bottom: 1rem;
+      cursor: pointer;
 
       img {
         width: 4rem;
