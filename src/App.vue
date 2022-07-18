@@ -3,7 +3,6 @@
 
     <!-- Header -->
     <HeaderComponent 
-    
       :links="headerLinks"
       :socials="socialsLinks"
       />
