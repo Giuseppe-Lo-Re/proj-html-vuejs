@@ -33,7 +33,7 @@
 
 <script>
 export default {
-    name: "LimitessLearning"
+  name: "LimitessLearning"
 }
 </script>
 
