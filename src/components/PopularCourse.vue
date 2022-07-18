@@ -64,7 +64,7 @@
 
                 <!-- Sticker "Featured" -->
                 <div class="sticker orange rotate-style">
-                <span>featured</span> 
+                    featured 
                 </div>
 
                 <!-- Sticker "New" -->

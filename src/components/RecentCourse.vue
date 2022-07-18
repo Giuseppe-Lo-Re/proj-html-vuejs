@@ -97,7 +97,7 @@
 
             <!-- Sticker "Featured" -->
             <div class="sticker orange rotate-style">
-                <span>featured</span> 
+                featured 
             </div>
 
             <!-- Sticker "New" -->
@@ -911,7 +911,7 @@ right: 0;
 
     // Hover Effect
     &:hover {
-    color: $color_cube2;
+    color: $color_cube6;
     }
 }
 }
