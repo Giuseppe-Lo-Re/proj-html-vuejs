@@ -123,7 +123,6 @@ h4 {
     display: inline-block;
     background-color:$color_cube6;
     color: $color_cube1;
-    border: 1px solid $color_cube6;
     text-transform: uppercase;
     padding: 0.8rem 1.3rem;
     border-radius: 30px;

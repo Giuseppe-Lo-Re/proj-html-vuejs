@@ -57,7 +57,8 @@
 
           <!-- Address -->
           <p class="text">
-            USA, California 20, FIrst Avenue, <br>
+            USA, California 20, <br>
+            First Avenue, <br>
             California
           </p>
 
@@ -273,7 +274,7 @@ footer {
         // Reduce space from bullet to li
         span {
           position: relative;
-          left: -10px;
+          left: -20px;
         }
       }
     }

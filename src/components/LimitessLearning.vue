@@ -80,7 +80,6 @@ export default {
         display: inline-block;
         background-color:$color_cube6;
         color: $color_cube1;
-        border: 1px solid $color_cube6;
         text-transform: uppercase;
         padding: 1rem 1.4rem;
         border-radius: 30px;

@@ -294,7 +294,6 @@ header {
                     display: inline-block;
                     background-color:$color_cube6;
                     color: $color_cube1;
-                    border: 1px solid $color_cube6;
                     text-transform: uppercase;
                     padding: 0.6rem 1.2rem;
                     border-radius: 20px;
