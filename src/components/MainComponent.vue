@@ -1790,6 +1790,10 @@ main {
           &.selected {
           border: 1px solid $color_cube7;
           }
+
+          &:hover {
+            border: 1px solid $color_cube6;
+          }
           
           .details {
             padding: 0.9rem;
@@ -2109,6 +2113,10 @@ main {
           border: 1px solid $color_cube7;
           }
           
+          &:hover {
+            border: 1px solid $color_cube2;
+          }
+
           .details {
             padding: 0.9rem;
             background-color: $color-cube1;
