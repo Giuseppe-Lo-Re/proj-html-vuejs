@@ -244,11 +244,19 @@ header {
                 padding-left: 1.875rem;
                 display: flex;
                 font-size: 0.75rem;
+                
         
                 li {
                     list-style-type: none;
                     padding-inline: 0.3rem;
                     cursor: pointer;
+
+                    i {
+                        // Hover Effect
+                        &:hover {
+                            color: $color_cube8;
+                        }
+                    }
                 }
             }
         }

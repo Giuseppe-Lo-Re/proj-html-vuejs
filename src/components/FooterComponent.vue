@@ -229,8 +229,13 @@ footer {
         padding-top: 0.8rem; 
 
         i {
-        color:$median_cut6;
-        cursor: pointer;
+          color:$median_cut6;
+          cursor: pointer;
+
+          // Hover Effect
+          &:hover {
+            color: $color_cube8;
+          }
       }
       }
 
