@@ -4,8 +4,8 @@
       <!-- "Start Investing" Section -->
       <StartInvesting />
       
-      <!-- "Course List" Section -->
-      <CourseList />
+      <!-- "Categories Courses" Section -->
+      <CategoriesCourses />
 
       <!-- "Limitess Learning" Section -->
       <LimitessLearning />
@@ -32,7 +32,7 @@
 
 <script>
 import StartInvesting from "../components/StartInvesting";
-import CourseList from "../components/CourseList";
+import CategoriesCourses from "../components/CategoriesCourses";
 import LimitessLearning from "../components/LimitessLearning";
 import RecentCourse from "../components/RecentCourse";
 import WeareProud from "../components/WeareProud";
@@ -45,7 +45,7 @@ export default {
   name: "MainComponent",
   components: {
     StartInvesting,
-    CourseList,
+    CategoriesCourses,
     LimitessLearning,
     RecentCourse,
     WeareProud,

@@ -1,6 +1,6 @@
 <template>
 
-  <!-- "Course List" Section -->
+  <!-- "Categories Courses" Section -->
     <section>
         <div class="container-sm">
 
@@ -146,7 +146,7 @@
 
 <script>
 export default {
-    name: "CourseList"
+    name: "CategoriesCourses"
 }
 </script>
 
@@ -154,7 +154,7 @@ export default {
 @import "../style/common.scss";
 @import "../style/variables.scss";
 
-// "Course List" Section
+// "Categories Courses" Section
 .row {
     display: flex;
     justify-content: space-between;
