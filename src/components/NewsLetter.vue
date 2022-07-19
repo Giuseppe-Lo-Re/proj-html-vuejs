@@ -59,8 +59,8 @@ export default {
 
 // Newletter Section
 .newletter {
-color: $color_cube1;
-background-color: $color_cube2;
+    color: $color_cube1;
+    background-color: $color_cube2;
 
     .cols-wrapper {
         display: flex;

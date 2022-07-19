@@ -52,7 +52,6 @@ export default {
     padding-right: 1.8rem;
     padding-inline: 0.6rem;
 
-    // Reuse for "Limitess Learning" Section
     &.background-img {
       width: 100%;
       background-image: url("../assets/img/Untitled-1-1-1-1-1.png");
