@@ -11,7 +11,7 @@
                 <div class="software-dev">
 
                     <!-- Category Image -->
-                    <img src="../assets/img/cat_1-1540x750.jpg" alt="software-devlopment_img">
+                    <img src="../assets/img/cat_1-1540x750.jpg" alt="software-devlopment">
 
                     <!-- Course Details -->
                     <div class="courses-details">
@@ -34,7 +34,7 @@
                     <div class="col-thin">
 
                     <!-- Category Image -->
-                    <img src="../assets/img/cat_2-370x155.jpg" alt="art_img">
+                    <img src="../assets/img/cat_2-370x155.jpg" alt="art">
 
                         <!-- Course Details -->
                         <div class="courses-details">
@@ -55,7 +55,7 @@
                     <div class="col-thin">
 
                     <!-- Category Image -->
-                    <img src="../assets/img/cat_3-370x155.jpg" alt="material-design_img">
+                    <img src="../assets/img/cat_3-370x155.jpg" alt="material-design">
 
                         <!-- Course Details -->
                         <div class="courses-details">
@@ -81,7 +81,7 @@
                 <div class="col-thin-bottom">
 
                     <!-- Category Image -->
-                    <img src="../assets/img/cat_5-370x155.jpg" alt="music_img">
+                    <img src="../assets/img/cat_5-370x155.jpg" alt="music">
 
                     <!-- Course Details -->
                     <div class="courses-details">
@@ -102,7 +102,7 @@
                 <div class="col-thin-bottom">
 
                     <!-- Category Image -->
-                    <img src="../assets/img/cat_4-370x155.jpg" alt="exercise_img">
+                    <img src="../assets/img/cat_4-370x155.jpg" alt="exercise">
 
                     <!-- Course Details -->
                     <div class="courses-details">
@@ -123,7 +123,7 @@
                 <div class="col-thin-bottom">
 
                     <!-- Course Image -->
-                    <img src="../assets/img/cat_6-370x155.jpg" alt="photography_img">
+                    <img src="../assets/img/cat_6-370x155.jpg" alt="photography">
 
                         <!-- Category Details -->
                         <div class="courses-details">
