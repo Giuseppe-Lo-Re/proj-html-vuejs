@@ -148,9 +148,10 @@ export default {
         }
 
         h3 {
-            font-size: 1rem;
+            font-size: 1.05rem;
             font-weight: 300;
             padding-block: 2rem;
+            line-height: 1.5rem;
         }
 
         .btn {

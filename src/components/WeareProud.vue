@@ -101,7 +101,7 @@ export default {
     text-align: center;
 
     .titles-wrapper {
-        width: 45%;
+        width: 44%;
         margin: 0 auto;
 
         h2 {
@@ -110,7 +110,7 @@ export default {
         }
 
         h3 {
-            font-size: 0.8rem;
+            font-size: 0.9rem;
             font-weight: 100;
             padding-block: 2rem;
         }
