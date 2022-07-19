@@ -1,4 +1,6 @@
 <template>
+
+    <!-- Header -->
     <header>
 
         <!-- Header Top -->
@@ -33,7 +35,7 @@
                             <!-- Notification -->
                             <div 
                                 v-if="link.isNew"  
-                                :class="{'new':link.isNew, 'on-second':link.isNew, }">
+                                :class="{'new':link.isNew, 'notification':link.isNew, }">
                                 new
                             </div>
 
@@ -189,16 +191,10 @@ header {
                         border-radius: 3px;
                         border-bottom-left-radius: 0px;
 
-                        &.on-second {
+                        &.notification {
                             position: absolute;
                             top: -18px;
                             left: 32px;
-                        }
-
-                        &.on-sixth {
-                            position: absolute;
-                            top: -18px;
-                            right: 33px;
                         }
                     }
                 }

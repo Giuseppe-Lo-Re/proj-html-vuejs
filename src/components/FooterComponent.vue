@@ -1,4 +1,6 @@
 <template>
+
+  <!-- Footer -->
   <footer>
     <div class="container-sm">
       <ul>
@@ -19,10 +21,10 @@
               Masterstudy
             </a>
 
-              is Education Wordpress theme <br>
-              featured by Learning Management System <br>
-              (LMS) for online education. <br>
-              Developed by
+            is Education Wordpress theme <br>
+            featured by Learning Management System <br>
+            (LMS) for online education. <br>
+            Developed by
 
             <!-- Link -->
             <a href="/">
@@ -32,7 +34,6 @@
 
           <!-- Socials Links -->
           <ul class="socials-links">
-            
             <li>
                 <!-- Facebook Icon -->
                 <i class="fa-brands fa-facebook"></i>
@@ -93,8 +94,6 @@
           </h5>
 
           <div class="ul-wrapper">
-
-            
             <ul>
               <!-- V-for links via props from data "footerLinks1" -->
               <li 
@@ -108,7 +107,6 @@
                 </span> 
               </li>
             </ul>
-
             
             <ul>
               <!-- V-for links via props from data "footerLinks2" -->

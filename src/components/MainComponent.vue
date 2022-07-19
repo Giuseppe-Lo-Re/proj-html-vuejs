@@ -1,35 +1,35 @@
 <template>
 
-    <!-- Main -->
-    <main>
+  <!-- Main -->
+  <main>
 
-      <!-- "Start Investing" Section -->
-      <StartInvesting />
-      
-      <!-- "Categories Courses" Section -->
-      <CategoriesCourses />
+    <!-- "Start Investing" Section -->
+    <StartInvesting />
+    
+    <!-- "Categories Courses" Section -->
+    <CategoriesCourses />
 
-      <!-- "Limitess Learning" Section -->
-      <LimitessLearning />
+    <!-- "Limitess Learning" Section -->
+    <LimitessLearning />
 
-      <!-- "Recent Course" Section -->
-      <RecentCourse />
+    <!-- "Recent Course" Section -->
+    <RecentCourse />
 
-      <!-- "We are Proud" Section -->
-      <WeareProud />
+    <!-- "We are Proud" Section -->
+    <WeareProud />
 
-      <!-- Newsletter Section -->
-      <NewsLetter />
+    <!-- Newsletter Section -->
+    <NewsLetter />
 
-      <!-- "Popular Course" Section -->
-      <PopularCourse />
+    <!-- "Popular Course" Section -->
+    <PopularCourse />
 
-      <!-- "Instructor/Business" Section -->
-      <InstructorBusiness />
+    <!-- "Instructor/Business" Section -->
+    <InstructorBusiness />
 
-      <!-- "Come As You Are" Section -->
-      <ComeasYouare />
-    </main>
+    <!-- "Come As You Are" Section -->
+    <ComeasYouare />
+  </main>
 </template>
 
 <script>

@@ -1,5 +1,6 @@
 <template>
-  <!-- "Come As You Are" Section -->
+
+    <!-- "Come As You Are" Section -->
     <section>
         <div class="comeasyouare">
             <div class="container-sm">

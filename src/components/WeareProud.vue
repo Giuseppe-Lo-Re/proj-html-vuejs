@@ -97,7 +97,7 @@ export default {
     background-position: center bottom;
     background-size: 1500px;
     padding-top: 4rem;
-    padding-bottom:15rem;
+    padding-bottom: 15rem;
     text-align: center;
 
     .titles-wrapper {

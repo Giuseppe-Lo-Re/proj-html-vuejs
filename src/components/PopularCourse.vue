@@ -1,4 +1,6 @@
 <template>
+
+    <!-- "Popular Courses" Section -->
     <section>
         <div class="popular-courses">
 

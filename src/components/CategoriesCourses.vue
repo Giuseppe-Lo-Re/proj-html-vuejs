@@ -7,7 +7,7 @@
             <!-- First Row -->
             <div class="row">
 
-            <!-- Software Development -->
+                <!-- Software Development -->
                 <div class="software-dev">
 
                     <!-- Category Image -->
@@ -33,8 +33,8 @@
                     <!-- Art -->
                     <div class="col-thin">
 
-                    <!-- Category Image -->
-                    <img src="../assets/img/cat_2-370x155.jpg" alt="art">
+                        <!-- Category Image -->
+                        <img src="../assets/img/cat_2-370x155.jpg" alt="art">
 
                         <!-- Course Details -->
                         <div class="courses-details">
@@ -54,8 +54,8 @@
                     <!-- Material Design -->
                     <div class="col-thin">
 
-                    <!-- Category Image -->
-                    <img src="../assets/img/cat_3-370x155.jpg" alt="material-design">
+                        <!-- Category Image -->
+                        <img src="../assets/img/cat_3-370x155.jpg" alt="material-design">
 
                         <!-- Course Details -->
                         <div class="courses-details">
@@ -125,8 +125,8 @@
                     <!-- Course Image -->
                     <img src="../assets/img/cat_6-370x155.jpg" alt="photography">
 
-                        <!-- Category Details -->
-                        <div class="courses-details">
+                    <!-- Category Details -->
+                    <div class="courses-details">
 
                         <!-- Category Course -->
                         <div>
@@ -177,11 +177,11 @@ export default {
 .col-wrapper {
     width: 34%;
 
-.col-thin {
-    width: 100%;
-    padding-left: 1.6rem;
-    cursor: pointer;
-}
+    .col-thin {
+        width: 100%;
+        padding-left: 1.6rem;
+        cursor: pointer;
+    }
 }
 
 .col-thin-bottom {

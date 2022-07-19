@@ -4,29 +4,29 @@
   <section>
     <div class="colums-wrapper">
 
-        <!-- Column Left -->
-        <div class="col-left background-img">
-          <div class="container-sm">
+      <!-- Column Left -->
+      <div class="col-left background-img">
+        <div class="container-sm">
 
-            <!-- Title -->
-            <h2>
-              Limitless learning, <br>
-              more possibilities
-            </h2>
+          <!-- Title -->
+          <h2>
+            Limitless learning, <br>
+            more possibilities
+          </h2>
 
-            <!-- Subtitle -->
-            <h3>
-              Online course open the opportunity for learning to <br>
-              almost anyone, regardless of their scheduling <br>
-              commitments.
-            </h3>
+          <!-- Subtitle -->
+          <h3>
+            Online course open the opportunity for learning to <br>
+            almost anyone, regardless of their scheduling <br>
+            commitments.
+          </h3>
 
-            <!-- "Read More" Button -->
-            <a href="#" class="btn">
-              read more
-            </a>
-          </div>
+          <!-- "Read More" Button -->
+          <a href="#" class="btn">
+            read more
+          </a>
         </div>
+      </div>
     </div>
   </section>
 </template>

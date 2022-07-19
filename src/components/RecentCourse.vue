@@ -1,6 +1,6 @@
 <template>
 
-  <!-- "Recent Course" Section -->
+    <!-- "Recent Course" Section -->
     <section>
         <div class="recent-course">
 
@@ -656,7 +656,7 @@
                 show all
             </a>
 
-            <!-- Utility menù -->
+            <!-- Utility Menu -->
             <div class="utility-wrapper">
 
                 <!-- Monitor Icon -->
