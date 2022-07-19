@@ -158,13 +158,13 @@
                                 <div class="length">
 
                                     <!-- Stars -->
-                                        <div class="stars">
+                                    <div class="stars">
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
-                                        </div>
+                                    </div>
 
                                     <!-- Course Length  -->
                                     <span class="text center">
@@ -215,11 +215,11 @@
 
                                     <!-- Stars -->
                                         <div class="stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
                                         </div>
 
                                     <!-- Course Length  -->
@@ -306,7 +306,7 @@
 
                             <!-- Name Course -->
                             <div class="name">
-                                make your COncept Right and Beautiful
+                                make your Concept Right and Beautiful
                             </div>
 
                             <!-- Card Footer -->
@@ -337,12 +337,12 @@
 
                 <!-- Chevron Left Icon -->
                 <div>
-                <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-left"></i>
                 </div>
 
                 <!-- Chevron Right Icon -->
                 <div>
-                <i class="fa-solid fa-chevron-right"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
                 </div>
             </div>
         </div>
@@ -430,31 +430,31 @@ export default {
                 top: 10px;
                 right: 10px;
 
-            // Use for Rotated Sticker
-            &.rotate-style {
-                width: 7.8rem;
-                height: 1.4rem;
-                font-size: 0.5rem;
-                font-weight: 800;
-                padding-top: 0.4rem;
-                transform: rotate(-45deg);
-                position: absolute;
-                top: 21px;
-                right: 104px;
-            }
+                // Use for Rotated Sticker
+                &.rotate-style {
+                    width: 7.8rem;
+                    height: 1.4rem;
+                    font-size: 0.5rem;
+                    font-weight: 800;
+                    padding-top: 0.4rem;
+                    transform: rotate(-45deg);
+                    position: absolute;
+                    top: 21px;
+                    right: 104px;
+                }
 
-            // Reuse with differents colors
-            &.green {
-                background-color: $color_cube2;
-            }
-            
-            &.red {
-                background-color: $color_cube8;
-            }
+                // Reuse with differents colors
+                &.green {
+                    background-color: $color_cube2;
+                }
+                
+                &.red {
+                    background-color: $color_cube8;
+                }
 
-            &.orange {
-                background-color: $median_cut7;
-            }
+                &.orange {
+                    background-color: $median_cut7;
+                }
             }
 
             // Change color on selection
@@ -502,26 +502,26 @@ export default {
                     align-content: center;
                     color: $median_cut6;
 
-                i {
-                    font-size: 0.8rem;
-                }
-
-                .stars {
-
                     i {
-                        font-size: 0.5rem;
-                        color: $color_cube7;
+                        font-size: 0.8rem;
                     }
-                }
 
-                .text {
-                    font-size: 0.7rem;
-                    padding-left: 0.2rem;
+                    .stars {
 
-                    &.center {
-                        padding-top: 0.35rem;
+                        i {
+                            font-size: 0.5rem;
+                            color: $color_cube7;
+                        }
                     }
-                }
+
+                    .text {
+                        font-size: 0.7rem;
+                        padding-left: 0.2rem;
+
+                        &.center {
+                            padding-top: 0.35rem;
+                        }
+                    }
                 }
 
                 .old-price {
@@ -553,22 +553,22 @@ export default {
     justify-content: center;
     padding-bottom: 4rem;
 
-div {
-    background-color: $color_cube1;
-    border: 1px solid $median_cut2;
+    div {
+        background-color: $color_cube1;
+        border: 1px solid $median_cut2;
 
-    i {
-        font-size:0.7rem;
-        padding: 0.7rem 0.8rem;
-        color: $median_cut2;
-        cursor: pointer;
+        i {
+            font-size:0.7rem;
+            padding: 0.7rem 0.8rem;
+            color: $median_cut2;
+            cursor: pointer;
 
-    // Hover Effect
-    &:hover {
-        border: none;
-        background-color: $median_cut1;
+            // Hover Effect
+            &:hover {
+                border: none;
+                background-color: $median_cut1;
+            }
+        }
     }
-    }
-}
 }
 </style>

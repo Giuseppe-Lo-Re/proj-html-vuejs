@@ -11,13 +11,13 @@
 
                         <!-- Title -->
                         <h4>
-                        Subscribe our newletter
+                            Subscribe our newletter
                         </h4>
 
                         <!-- Subtitle -->
                         <p>
-                        There are many cariations of passages of Lorem Ipsum avaiable, but the majority have <br>
-                        suffered alteration in some form, by injected humour, or randomised words
+                            There are many cariations of passages of Lorem Ipsum avaiable, but the majority have <br>
+                            suffered alteration in some form, by injected humour, or randomised words
                         </p>
                     </div>
 
@@ -75,22 +75,22 @@ export default {
         .col-left {
             width: 60%;
 
-        p {
-            font-size: 0.7rem;
-            font-weight: 300;
-        }
+            p {
+                font-size: 0.7rem;
+                font-weight: 300;
+            }
         }
 
         .col-right {
             width: 40%;
             padding-left: 1rem;
 
-        h4 {
-            text-transform: uppercase;
-            font-size: 00.7rem;
-            font-weight: 400;
+            h4 {
+                text-transform: uppercase;
+                font-size: 00.7rem;
+                font-weight: 400;
+            }
         }
-    }
 
         .form {
             display: flex;
@@ -108,7 +108,7 @@ export default {
             ::placeholder {
                 color: $median_cut4;
                 opacity: 1; 
-                }
+            }
 
             textarea:focus, input:focus {
                 outline: none;
