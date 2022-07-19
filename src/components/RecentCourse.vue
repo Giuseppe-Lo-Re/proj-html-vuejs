@@ -880,28 +880,26 @@ export default {
     .btn {
         font-weight: 600;
         margin-bottom: 4rem;
-
-        a {
-            font-size: 0.7rem;
-            display: inline-block;
-            background-color:$color_cube6;
-            color: $color_cube1;
-            text-transform: uppercase;
-            padding: 1rem 1.4rem;
-            border-radius: 30px;
-            transition: all 1000ms;
-
-            // Hover Effect
-            &:hover {
-                background-color: $color_cube2;
-                border: none;
-                transform: scale(1.1);
-            }
-        }
     }
 
-    
+    a {
+        font-size: 0.7rem;
+        display: inline-block;
+        background-color:$color_cube6;
+        color: $color_cube1;
+        text-transform: uppercase;
+        padding: 1rem 1.4rem;
+        border-radius: 30px;
+        transition: all 1000ms;
 
+        // Hover Effect
+        &:hover {
+            background-color: $color_cube2;
+            border: none;
+            transform: scale(1.1);
+        }
+    }
+    
     .utility-wrapper {
         box-shadow: 1.5px 5px 5px 1.5px rgba(0, 0, 0, 0.2);
         display: inline-block;
