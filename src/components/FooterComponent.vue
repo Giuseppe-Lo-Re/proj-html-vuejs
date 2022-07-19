@@ -16,17 +16,17 @@
 
             <!-- Link -->
             <a href="/">
-            Masterstudy
+              Masterstudy
             </a>
 
-            is Education Wordpress theme <br>
-            featured by Learning Management System <br>
-            (LMS) for online education. <br>
-            Developed by
+              is Education Wordpress theme <br>
+              featured by Learning Management System <br>
+              (LMS) for online education. <br>
+              Developed by
 
             <!-- Link -->
             <a href="/">
-            StylemixThemes.
+              StylemixThemes.
             </a>
           </p>
 
@@ -34,14 +34,17 @@
           <ul class="socials-links">
             
             <li>
+                <!-- Facebook Icon -->
                 <i class="fa-brands fa-facebook"></i>
             </li>
 
             <li>
+                <!-- Twitter Icon -->
                 <i class="fa-brands fa-twitter"></i>
             </li>
 
             <li>
+                <!-- Instagram Icon -->
                 <i class="fa-brands fa-instagram"></i>
             </li>
           </ul>
