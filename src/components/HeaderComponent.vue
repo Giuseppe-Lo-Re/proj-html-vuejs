@@ -175,7 +175,7 @@ header {
 
                 li {
                     list-style-type: none;
-                    padding-inline: 0.6rem;
+                    padding-inline: 0.55rem;
                     position: relative;
                     cursor: pointer;
 
@@ -184,7 +184,8 @@ header {
                         color: $color_cube1;
                         text-transform: uppercase;
                         font-size: 0.45rem;
-                        padding: 0.1rem 0.25rem;
+                        padding: 0.05rem 0.25rem;
+                        margin-top: 0.2rem;
                         border-radius: 3px;
                         border-bottom-left-radius: 0px;
 
@@ -224,7 +225,7 @@ header {
         padding-top: 1rem;
 
         .logo {
-            width: 16rem;
+            width: 14rem;
             padding-right: 2rem;
             cursor: pointer;
         }

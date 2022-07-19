@@ -133,7 +133,7 @@ export default {
 
         .number {
             font-size: 3rem;
-            font-weight: 300;
+            font-weight: 200;
             padding-bottom: 0.7rem;
         }
 

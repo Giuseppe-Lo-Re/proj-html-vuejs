@@ -56,14 +56,14 @@ export default {
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 90rem ;
-    height: 33rem;
+    height: 32rem;
     position: relative;
 
 .wrapper {
     background-color: $color_cube1;
     width: 40%;
-    padding: 3.5rem;
-    margin-left: 2rem;
+    padding: 3.7rem;
+    margin-left: 2.5rem;
     position: absolute;
     top: 72px;
     left: 255px;

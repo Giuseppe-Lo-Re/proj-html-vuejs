@@ -7,6 +7,11 @@
                 Popular courses
             </h2>
 
+            <!-- Subtitle -->
+            <h3>
+               Discover our most popular courses for self learning 
+            </h3>
+
             <!-- Courses Cards -->
             <div class="cards-container">
 
@@ -364,7 +369,13 @@ export default {
         font-size: 2.3rem;
         font-weight: 200;
         padding-top: 3.5rem;
-        padding-bottom: 1.5rem;
+    }
+
+    h3 {
+        font-size: 0.8rem;
+        font-weight: 100;
+        padding-top: 1.2rem;
+        padding-bottom: 2rem;
     }
 
     ul {
@@ -396,7 +407,7 @@ export default {
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
 
         .card-container {
             width: calc(100% / 6);
