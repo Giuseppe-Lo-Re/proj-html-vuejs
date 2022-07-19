@@ -361,7 +361,7 @@ export default {
     background-color: $material_design6;
 
     h2 {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         font-weight: 200;
         padding-top: 3.5rem;
         padding-bottom: 1.5rem;
@@ -373,20 +373,20 @@ export default {
         align-items: center;
         
         li {
-        list-style-type: none;
-        font-size: 0.7rem;
-        padding-inline: 1rem;
-        font-weight: 300;
-        color: $color_cube6;
-        margin-bottom: 2rem;
-        cursor: pointer;
+            list-style-type: none;
+            font-size: 0.7rem;
+            padding-inline: 1rem;
+            font-weight: 300;
+            color: $color_cube6;
+            margin-bottom: 2rem;
+            cursor: pointer;
         }
 
         .active {
-        background-color:$material_design6;
-        padding: 0.5rem 0.7rem;
-        border-radius: 30px;
-        color:$median_cut6;
+            background-color:$material_design6;
+            padding: 0.5rem 0.7rem;
+            border-radius: 30px;
+            color:$median_cut6;
         }
     }
 
@@ -412,8 +412,8 @@ export default {
             .sticker {
                 color: $color_cube1;
                 text-transform: uppercase;
-                font-size: 0.6rem;
-                padding: 0.1rem 0.25rem;
+                font-size: 0.5rem;
+                padding: 0.3rem 0.35rem;
                 border-radius: 3px;
                 position: absolute;
                 top: 10px;
@@ -487,9 +487,9 @@ export default {
                 height: 2rem;
 
                 .length {
-                display: flex;
-                align-content: center;
-                color: $median_cut6;
+                    display: flex;
+                    align-content: center;
+                    color: $median_cut6;
 
                 i {
                     font-size: 0.8rem;

@@ -80,7 +80,7 @@
                 <div class="form">
 
                     <!-- Input -->
-                    <input type="text" placeholder="Search course">
+                    <input type="text" placeholder="Search courses">
 
                     <!-- Button -->
                     <button type="submit">
@@ -204,7 +204,7 @@ header {
             }
     
             .socials-links {
-                padding-left: 1.875rem;
+                padding-left: 1.5rem;
                 display: flex;
                 font-size: 0.75rem;
                 
@@ -231,21 +231,26 @@ header {
 
         .category {
             text-transform: uppercase;
-            font-weight: 500;
+            font-weight: 600;
             font-size: 0.6rem;
-            // padding-right: 0.rem;
+            padding-right: 0.6rem;
             cursor: pointer;
         }
 
         .form {
             input {
                 display: inline;
-                font-size: 0.75rem;
-                padding: 0.5rem;
+                font-size: 0.7rem;
+                padding: 0.8rem;
                 width: 21.5rem;
                 background-color: $material_design6;
                 border: none;
             }
+
+            ::placeholder {
+                color: $median_cut6;
+                opacity: 1; 
+                }
 
             textarea:focus, input:focus {
                 outline: none;
@@ -254,7 +259,7 @@ header {
             button {
                 background-color: $color_cube6;
                 border: none;
-                padding: 0.43rem;
+                padding: 0.65rem 0.55rem;
                 cursor: pointer;
 
                 i {
@@ -267,8 +272,8 @@ header {
         .cta {
             display: flex;
             align-items: center;
-            padding-left: 2.5rem;
-            font-size: 0.7rem;
+            padding-left: 2.3rem;
+            font-size: 0.65rem;
 
             .instructor,
             .enterprise,
@@ -316,6 +321,7 @@ header {
                 }
 
                 .bookmark {
+                    padding-right: 0.3rem;
                     cursor: pointer;
                 }
             }

@@ -96,12 +96,18 @@ export default {
 
             input {
                 display: inline;
+                color: $median_cut2;
                 font-size: 0.75rem;
                 padding: 0.5rem;
                 width: 21.5rem;
                 background-color: $material_design6;
                 border: none;
             }
+
+            ::placeholder {
+                color: $median_cut4;
+                opacity: 1; 
+                }
 
             textarea:focus, input:focus {
                 outline: none;
@@ -110,7 +116,7 @@ export default {
             button {
                 background-color: $color_cube6;
                 border: none;
-                padding: 0.7rem 0.8rem;
+                padding: 0.6rem 1rem;
                 text-transform: uppercase;
                 color: $color_cube1;
                 font-size: 0.7rem;

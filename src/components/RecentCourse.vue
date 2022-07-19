@@ -699,7 +699,7 @@ export default {
     position: relative;
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 200;
     padding-top: 3.5rem;
     padding-bottom: 1.5rem;
@@ -750,8 +750,8 @@ ul {
         .sticker {
             color: $color_cube1;
             text-transform: uppercase;
-            font-size: 0.6rem;
-            padding: 0.1rem 0.25rem;
+            font-size: 0.5rem;
+            padding: 0.3rem 0.35rem;
             border-radius: 3px;
             position: absolute;
             top: 10px;

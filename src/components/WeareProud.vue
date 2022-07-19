@@ -97,21 +97,21 @@ export default {
     background-position: center bottom;
     background-size: 1500px;
     padding-top: 4rem;
-    padding-bottom:18rem;
+    padding-bottom:15rem;
     text-align: center;
 
     .titles-wrapper {
-        width: 50%;
+        width: 45%;
         margin: 0 auto;
 
         h2 {
-            font-size: 2.5rem;
+            font-size: 2.3rem;
             font-weight: 200;
         }
 
         h3 {
-            font-size: 1rem;
-            font-weight: 300;
+            font-size: 0.8rem;
+            font-weight: 100;
             padding-block: 2rem;
         }
     }
@@ -119,12 +119,13 @@ export default {
     .numbers {
         width: 80%;
         margin: 0 auto;
+        padding-top: 3rem;
         display: flex;
         justify-content: space-evenly;
 
         .numbers-wrapper {
-            padding-inline: 5rem;
-            border-right: 2px solid $median_cut2;
+            padding: 2rem 5rem;
+            border-right: 1px solid $median_cut2;
 
         &.no-border {
             border-right: none;

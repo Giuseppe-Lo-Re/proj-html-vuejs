@@ -61,8 +61,8 @@ export default {
       }
 
       h2 {
-        font-size: 2.8rem;
-        font-weight: 200;
+        font-size: 2.5rem;
+        font-weight: 100;
       }
 
       h3 {

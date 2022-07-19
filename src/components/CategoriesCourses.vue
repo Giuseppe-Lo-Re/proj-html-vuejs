@@ -10,13 +10,13 @@
             <!-- Software Development -->
                 <div class="software-dev">
 
-                    <!-- Course Image -->
+                    <!-- Category Image -->
                     <img src="../assets/img/cat_1-1540x750.jpg" alt="software-devlopment_img">
 
-                    <!-- Course Description -->
-                    <div class="courses-description">
+                    <!-- Course Details -->
+                    <div class="courses-details">
 
-                        <!-- Course Type -->
+                        <!-- Category Course -->
                         <div>
                             Software Development
                         </div>
@@ -33,20 +33,20 @@
                     <!-- Art -->
                     <div class="col-thin">
 
-                    <!-- Course Image -->
+                    <!-- Category Image -->
                     <img src="../assets/img/cat_2-370x155.jpg" alt="art_img">
 
-                        <!-- Course Description -->
-                        <div class="courses-description">
+                        <!-- Course Details -->
+                        <div class="courses-details">
 
-                            <!-- Course Type -->
+                            <!-- Category Course -->
                             <div>
-                            Art
+                                Art
                             </div>
 
                             <!-- Total Courses -->
                             <div>
-                            8 Courses
+                                8 Courses
                             </div>
                         </div>
                     </div>
@@ -54,20 +54,20 @@
                     <!-- Material Design -->
                     <div class="col-thin">
 
-                    <!-- Course Image -->
+                    <!-- Category Image -->
                     <img src="../assets/img/cat_3-370x155.jpg" alt="material-design_img">
 
-                    <!-- Course Description -->
-                        <div class="courses-description">
+                        <!-- Course Details -->
+                        <div class="courses-details">
 
-                            <!-- Course Type -->
+                            <!-- Category Course -->
                             <div>
-                            Material Design
+                                Material Design
                             </div>
 
                             <!-- Total Courses -->
                             <div>
-                            5 Courses
+                                5 Courses
                             </div>
                         </div>
                     </div>
@@ -80,13 +80,13 @@
                 <!-- Music -->
                 <div class="col-thin-bottom">
 
-                    <!-- Course Image -->
+                    <!-- Category Image -->
                     <img src="../assets/img/cat_5-370x155.jpg" alt="music_img">
 
-                    <!-- Course Description -->
-                    <div class="courses-description">
+                    <!-- Course Details -->
+                    <div class="courses-details">
 
-                        <!-- Course Type -->
+                        <!-- Category Course -->
                         <div>
                             Music
                         </div>
@@ -101,13 +101,13 @@
                 <!-- Exercise -->
                 <div class="col-thin-bottom">
 
-                    <!-- Course Image -->
+                    <!-- Category Image -->
                     <img src="../assets/img/cat_4-370x155.jpg" alt="exercise_img">
 
-                    <!-- Course Description -->
-                    <div class="courses-description">
+                    <!-- Course Details -->
+                    <div class="courses-details">
 
-                        <!-- Course Type -->
+                        <!-- Category Course -->
                         <div>
                             Exercise
                         </div>
@@ -125,10 +125,10 @@
                     <!-- Course Image -->
                     <img src="../assets/img/cat_6-370x155.jpg" alt="photography_img">
 
-                        <!-- Course Description -->
-                        <div class="courses-description">
+                        <!-- Category Details -->
+                        <div class="courses-details">
 
-                        <!-- Course Type -->
+                        <!-- Category Course -->
                         <div>
                             Photography
                         </div>
@@ -166,7 +166,7 @@ export default {
     cursor: pointer;
 }
 
-.courses-description {
+.courses-details {
     display: flex;
     justify-content: space-between;
     font-size: 0.7rem;
