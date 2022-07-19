@@ -207,6 +207,7 @@ props: {
 @import "../style/common.scss";
 @import "../style/variables.scss";
 
+// Footer
 footer {
   padding-top: 2.7rem;
   padding-bottom: 1.5rem;

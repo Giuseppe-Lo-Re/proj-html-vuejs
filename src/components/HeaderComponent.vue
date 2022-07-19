@@ -148,6 +148,7 @@ props: {
 @import "../style/common.scss";
 @import "../style/variables.scss";
 
+// Header
 header {
     padding-block: 1.25rem;
 
@@ -251,7 +252,7 @@ header {
             ::placeholder {
                 color: $median_cut6;
                 opacity: 1; 
-                }
+            }
 
             textarea:focus, input:focus {
                 outline: none;
@@ -295,6 +296,7 @@ header {
             .log-in {
                 color: $color_cube6;
             }
+            
             .user-access {
                 display: flex;
                 align-items: center;

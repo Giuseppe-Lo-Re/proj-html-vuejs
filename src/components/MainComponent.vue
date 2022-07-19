@@ -1,4 +1,6 @@
 <template>
+
+    <!-- Main -->
     <main>
 
       <!-- "Start Investing" Section -->

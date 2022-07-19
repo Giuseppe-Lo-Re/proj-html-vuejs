@@ -1,5 +1,6 @@
 <template>
-  <!-- "Instructor/Business" Section -->
+
+    <!-- "Instructor/Business" Section -->
     <section>
         <div class="container-lg">
             <div class="instructor-business">

@@ -1,5 +1,6 @@
 <template>
-  <!-- Newsletter Section -->
+
+    <!-- Newsletter Section -->
     <section>
         <div class="newletter">
             <div class="container-sm">

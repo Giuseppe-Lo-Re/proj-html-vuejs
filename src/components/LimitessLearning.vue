@@ -10,20 +10,20 @@
 
             <!-- Title -->
             <h2>
-            Limitless learning, <br>
-            more possibilities
+              Limitless learning, <br>
+              more possibilities
             </h2>
 
             <!-- Subtitle -->
             <h3>
-            Online course open the opportunity for learning to <br>
-            almost anyone, regardless of their scheduling <br>
-            commitments.
+              Online course open the opportunity for learning to <br>
+              almost anyone, regardless of their scheduling <br>
+              commitments.
             </h3>
 
             <!-- "Read More" Button -->
             <a href="#" class="btn">
-                read more
+              read more
             </a>
           </div>
         </div>
@@ -43,8 +43,8 @@ export default {
 
 // "Limitess Learning" Section
 .colums-wrapper {
-    display: flex;
-    padding-top: 2rem;
+  display: flex;
+  padding-top: 2rem;
 
     .col-left {
       width: 60%;
