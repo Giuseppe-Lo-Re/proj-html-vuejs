@@ -46,98 +46,98 @@ export default {
   display: flex;
   padding-top: 2rem;
 
-    .col-left {
-      width: 60%;
-      padding-top: 7rem;
-      padding-right: 1.8rem;
-      padding-inline: 0.6rem;
+  .col-left {
+    width: 60%;
+    padding-top: 7rem;
+    padding-right: 1.8rem;
+    padding-inline: 0.6rem;
 
-      // Reuse for "Limitess Learning" Section
-      &.background-img {
-        width: 100%;
-        background-image: url("../assets/img/Untitled-1-1-1-1-1.png");
-        background-position: center;
-        padding-bottom: 7rem;
-      }
-
-      h2 {
-        font-size: 2.5rem;
-        font-weight: 100;
-      }
-
-      h3 {
-        font-size: 1rem;
-        font-weight: 300;
-        padding-block: 2rem;
-      }
-
-      .btn {
-        font-weight: 600;
-      }
-
-      a {
-        font-size: 0.7rem;
-        display: inline-block;
-        background-color:$color_cube6;
-        color: $color_cube1;
-        text-transform: uppercase;
-        padding: 1rem 1.4rem;
-        border-radius: 30px;
-        cursor: pointer;
-        transition: all 1000ms;
-
-        // Hover Effect
-        &:hover {
-          background-color: $color_cube7;
-          border: none;
-          transform: scale(1.1);
-        }
-      }
+    // Reuse for "Limitess Learning" Section
+    &.background-img {
+      width: 100%;
+      background-image: url("../assets/img/Untitled-1-1-1-1-1.png");
+      background-position: center;
+      padding-bottom: 7rem;
     }
 
-    .col-right {
-      width: 40%;
-      position: relative;
-      
-      .bg-img {
-        width: 30rem;
-      }
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 100;
+    }
 
-      .book1-img {
-        width: 9rem;
-        position: absolute;
-        top: 90px;
-        right: -97px;
-      }
+    h3 {
+      font-size: 1rem;
+      font-weight: 300;
+      padding-block: 2rem;
+    }
 
-      .moon-img {
-        width: 3.5rem;
-        filter: grayscale(80%);
-        position: absolute;
-        top: 92px;
-        right: 204px;
-      }
+    .btn {
+      font-weight: 600;
+    }
 
-      .bubblespeech-img {
-        width: 3.5rem;
-        position: absolute;
-        top: 52px;
-        right: -95px;
-      }
+    a {
+      font-size: 0.7rem;
+      display: inline-block;
+      background-color:$color_cube6;
+      color: $color_cube1;
+      text-transform: uppercase;
+      padding: 1rem 1.4rem;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all 1000ms;
 
-      .book2-img {
-        width: 11.5rem;
-        position: absolute;
-        bottom: 44px;
-        right: -15px;
-      }
-
-      .magnifier-img {
-        width: 3.8rem;
-        position: absolute;
-        bottom: 95px;
-        right: -84px;
+      // Hover Effect
+      &:hover {
+        background-color: $color_cube7;
+        border: none;
+        transform: scale(1.1);
       }
     }
   }
+
+  .col-right {
+    width: 40%;
+    position: relative;
+    
+    .bg-img {
+      width: 30rem;
+    }
+
+    .book1-img {
+      width: 9rem;
+      position: absolute;
+      top: 90px;
+      right: -97px;
+    }
+
+    .moon-img {
+      width: 3.5rem;
+      filter: grayscale(80%);
+      position: absolute;
+      top: 92px;
+      right: 204px;
+    }
+
+    .bubblespeech-img {
+      width: 3.5rem;
+      position: absolute;
+      top: 52px;
+      right: -95px;
+    }
+
+    .book2-img {
+      width: 11.5rem;
+      position: absolute;
+      bottom: 44px;
+      right: -15px;
+    }
+
+    .magnifier-img {
+      width: 3.8rem;
+      position: absolute;
+      bottom: 95px;
+      right: -84px;
+    }
+  }
+}
 </style>

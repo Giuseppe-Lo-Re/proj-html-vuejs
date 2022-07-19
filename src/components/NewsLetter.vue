@@ -58,9 +58,9 @@ export default {
 @import "../style/variables.scss";
 
 // Newletter Section
-  .newletter {
-    color: $color_cube1;
-    background-color: $color_cube2;
+.newletter {
+color: $color_cube1;
+background-color: $color_cube2;
 
     .cols-wrapper {
         display: flex;

@@ -149,6 +149,8 @@
 
                             <!-- Name Course -->
                             <div class="name">
+
+                                <!-- Use of <br> to format height card -->
                                 Basic of Masterstudy <br>
                                 <br>
                             </div>
@@ -414,132 +416,132 @@ export default {
             padding: 0.5rem;
             cursor: pointer;
 
-        .card {
-            border: 1px solid $median_cut2;
-            position: relative;
-            overflow: hidden;
-            transition: all 1000ms;
+            .card {
+                border: 1px solid $median_cut2;
+                position: relative;
+                overflow: hidden;
+                transition: all 1000ms;
 
-            .sticker {
-                color: $color_cube1;
-                text-transform: uppercase;
-                font-size: 0.5rem;
-                padding: 0.3rem 0.35rem;
-                border-radius: 3px;
-                position: absolute;
-                top: 10px;
-                right: 10px;
-
-                // Use for Rotated Sticker
-                &.rotate-style {
-                    width: 7.8rem;
-                    height: 1.4rem;
+                .sticker {
+                    color: $color_cube1;
+                    text-transform: uppercase;
                     font-size: 0.5rem;
-                    font-weight: 800;
-                    padding-top: 0.4rem;
-                    transform: rotate(-45deg);
+                    padding: 0.3rem 0.35rem;
+                    border-radius: 3px;
                     position: absolute;
-                    top: 21px;
-                    right: 104px;
-                }
+                    top: 10px;
+                    right: 10px;
 
-                // Reuse with differents colors
-                &.green {
-                    background-color: $color_cube2;
-                }
-                
-                &.red {
-                    background-color: $color_cube8;
-                }
-
-                &.orange {
-                    background-color: $median_cut7;
-                }
-            }
-
-            // Change color on selection
-            &.selected {
-                border: 1px solid $color_cube7;
-            }
-            
-            // Hover effect
-            &:hover {
-                border: 1px solid $color_cube2;
-                transform: scale(1.05);
-                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-            }
-
-            .details {
-                padding: 0.9rem;
-                background-color: $color-cube1;
-
-            .category {
-                font-size: 0.6rem;
-                color: $median_cut6;
-                text-align: left;
-
-                i {
-                    font-size: 0.5rem;
-                }
-            }
-
-            .name {
-                font-size: 0.7rem;
-                text-align: left;
-                padding-block: 0.8rem;
-            }
-
-            .card-footer {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                border-top: 1px solid $median_cut2;
-                padding-top: 0.8rem;
-                height: 2rem;
-
-                .length {
-                    display: flex;
-                    align-content: center;
-                    color: $median_cut6;
-
-                    i {
-                        font-size: 0.8rem;
+                    // Use for Rotated Sticker
+                    &.rotate-style {
+                        width: 7.8rem;
+                        height: 1.4rem;
+                        font-size: 0.5rem;
+                        font-weight: 800;
+                        padding-top: 0.4rem;
+                        transform: rotate(-45deg);
+                        position: absolute;
+                        top: 21px;
+                        right: 104px;
                     }
 
-                    .stars {
+                    // Reuse with differents colors
+                    &.green {
+                        background-color: $color_cube2;
+                    }
+                    
+                    &.red {
+                        background-color: $color_cube8;
+                    }
+
+                    &.orange {
+                        background-color: $median_cut7;
+                    }
+                }
+
+                // Change color on selection
+                &.selected {
+                    border: 1px solid $color_cube7;
+                }
+                
+                // Hover effect
+                &:hover {
+                    border: 1px solid $color_cube2;
+                    transform: scale(1.05);
+                    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+                }
+
+                .details {
+                    padding: 0.9rem;
+                    background-color: $color-cube1;
+
+                    .category {
+                        font-size: 0.6rem;
+                        color: $median_cut6;
+                        text-align: left;
 
                         i {
                             font-size: 0.5rem;
-                            color: $color_cube7;
                         }
                     }
 
-                    .text {
+                    .name {
                         font-size: 0.7rem;
-                        padding-left: 0.2rem;
+                        text-align: left;
+                        padding-block: 0.8rem;
+                    }
 
-                        &.center {
-                            padding-top: 0.35rem;
+                    .card-footer {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        border-top: 1px solid $median_cut2;
+                        padding-top: 0.8rem;
+                        height: 2rem;
+
+                        .length {
+                            display: flex;
+                            align-content: center;
+                            color: $median_cut6;
+
+                            i {
+                                font-size: 0.8rem;
+                            }
+
+                            .stars {
+
+                                i {
+                                    font-size: 0.5rem;
+                                    color: $color_cube7;
+                                }
+                            }
+
+                            .text {
+                                font-size: 0.7rem;
+                                padding-left: 0.2rem;
+
+                                &.center {
+                                    padding-top: 0.35rem;
+                                }
+                            }
+                        }
+
+                        .old-price {
+                            font-size: 0.60rem;
+                            font-weight: 500;
+                            text-decoration: line-through;
+                            color: $median_cut6;
+                        }
+
+                        .price,
+                        .new-price {
+                            font-size: 0.75rem;
+                            font-weight: 500;
                         }
                     }
-                }
-
-                .old-price {
-                    font-size: 0.60rem;
-                    font-weight: 500;
-                    text-decoration: line-through;
-                    color: $median_cut6;
-                }
-
-                .price,
-                .new-price {
-                    font-size: 0.75rem;
-                    font-weight: 500;
                 }
             }
         }
-    }
-}
 
         .selected {
             border: 1px solid $color_cube7;

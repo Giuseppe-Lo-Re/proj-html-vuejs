@@ -80,44 +80,44 @@ export default {
     display: flex;
     padding-block: 4.5rem;
 
-.img-container {
-    padding-left: 2rem;
+    .img-container {
+        padding-left: 2rem;
 
-    img {
-        width: 10.5rem;
+        img {
+            width: 10.5rem;
+        }
     }
-}
 
-h3 {
-    font-size: 1.65rem;
-    font-weight: 300;
-}
-
-h4 {
-    font-size: 0.8rem;
-    font-weight: 200;
-    padding-top: 1.2rem;
-}
-
-.wrapper {
-    padding-top: 1rem;
-    padding-left: 3rem;
-}
-
-.col-left,
-.col-right {
-    width:50%;
-    display: flex;
-    border: 1px solid $median_cut2;
-    padding-top: 3rem;
-    margin: 0.7rem;
-}
-
-.btn {
-    font-weight: 600;
-    margin-top: 1.5rem;
-    margin-bottom: 4rem;
+    h3 {
+        font-size: 1.65rem;
+        font-weight: 300;
     }
+
+    h4 {
+        font-size: 0.8rem;
+        font-weight: 200;
+        padding-top: 1.2rem;
+    }
+
+    .wrapper {
+        padding-top: 1rem;
+        padding-left: 3rem;
+    }
+
+    .col-left,
+    .col-right {
+        width:50%;
+        display: flex;
+        border: 1px solid $median_cut2;
+        padding-top: 3rem;
+        margin: 0.7rem;
+    }
+
+    .btn {
+        font-weight: 600;
+        margin-top: 1.5rem;
+        margin-bottom: 4rem;
+        }
 
     a {
         font-size: 0.7rem;
@@ -129,13 +129,12 @@ h4 {
         border-radius: 30px;
         transition: all 1000ms;
 
-    // Hover Effect
-    &:hover {
-        background-color: $color_cube9;
-        border: none;
-        transform: scale(1.1);
-    }
+        // Hover Effect
+        &:hover {
+            background-color: $color_cube9;
+            border: none;
+            transform: scale(1.1);
+        }
     }
 }
-
 </style>

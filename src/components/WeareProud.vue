@@ -1,8 +1,8 @@
 <template>
+
     <!-- "We are Proud" Section -->
     <section>
         <div class="we-are-proud">
-
             <div class="titles-wrapper">
 
                 <!-- Title -->
@@ -127,21 +127,21 @@ export default {
             padding: 2rem 5rem;
             border-right: 1px solid $median_cut2;
 
-        &.no-border {
-            border-right: none;
-        }
+            &.no-border {
+                border-right: none;
+            }
 
-        .number {
-            font-size: 3rem;
-            font-weight: 200;
-            padding-bottom: 0.7rem;
-        }
+            .number {
+                font-size: 3rem;
+                font-weight: 200;
+                padding-bottom: 0.7rem;
+            }
 
-        .text {
-            font-size: 0.9rem;
-            font-weight: 100;
-            text-transform: uppercase;
-        }
+            .text {
+                font-size: 0.9rem;
+                font-weight: 100;
+                text-transform: uppercase;
+            }
         }
     }
 }

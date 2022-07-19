@@ -1,6 +1,6 @@
 <template>
 
-  <!-- "Start Investing" Section -->
+    <!-- "Start Investing" Section -->
     <section>
         <div class="container-sm">
             <div class="colums-wrapper">
@@ -10,12 +10,12 @@
                     
                     <!-- Title -->
                     <h2>
-                    Start Investing in You
+                        Start Investing in You
                     </h2>
 
                     <!-- Subtitle -->
                     <h3>
-                    With over 1200 courses in 18 subjects, you're guaranteed to find something that's right for you.
+                        With over 1200 courses in 18 subjects, you're guaranteed to find something that's right for you.
                     </h3>
 
                     <!-- "Join for Free" Button -->
@@ -26,6 +26,8 @@
 
                 <!-- Column Right -->
                 <div class="col-right">
+                    
+                    <!-- Image composed from differents images and layers -->
 
                     <!-- Background Image -->
                     <img class="bg-img" src="../assets/img/base.png" alt="base">
@@ -47,11 +49,11 @@
                 </div>
             </div>
 
-            <!-- Benefits -->
-            <div class="benefits">
+            <!-- Advantages -->
+            <div class="advantages">
 
                 <!-- "Worldwide Recognize" -->
-                <div class="col-benefits">
+                <div class="col-advantages">
 
                     <!-- Icon -->
                     <div>
@@ -64,13 +66,13 @@
                     </h4>
 
                     <!-- Text -->
-                    <div class="text-benefits">
+                    <div class="text-advantages">
                         Our online course certificates can be used around the world and also in most popular universities and companies.
                     </div>
                 </div>
 
                 <!-- "Mostly Online Learning" -->
-                <div class="col-benefits">
+                <div class="col-advantages">
 
                     <!-- Icon -->
                     <div>
@@ -83,13 +85,13 @@
                     </h4>
 
                     <!-- Text -->
-                    <div class="text-benefits">
+                    <div class="text-advantages">
                         Masterstudy online certificates can be obtained in a range of specialized areas and typically take about a year to complete.
                     </div>
                 </div>
 
                 <!-- "Graduate in as little as 1 Year" -->
-                <div class="col-benefits">
+                <div class="col-advantages">
 
                     <!-- Icon -->
                     <div>
@@ -102,7 +104,7 @@
                     </h4>
 
                     <!-- Text -->
-                    <div class="text-benefits">
+                    <div class="text-advantages">
                         Online post-graduate certificates are a popular way to develop your professional qualifications of Masterstudy.
                     </div>
                 </div>
@@ -126,106 +128,106 @@ export default {
     display: flex;
     padding-top: 2rem;
 
-.col-left {
-    width: 60%;
-    padding-top: 7rem;
-    padding-right: 1.8rem;
-    padding-inline: 0.6rem;
+    .col-left {
+        width: 60%;
+        padding-top: 7rem;
+        padding-right: 1.8rem;
+        padding-inline: 0.6rem;
 
-    // Reuse for "Limitess Learning" Section
-    &.background-img {
-        width: 100%;
-        background-image: url("../assets/img/Untitled-1-1-1-1-1.png");
-        background-position: center;
-        padding-bottom: 7rem;
+        // Reuse for "Limitess Learning" Section
+        &.background-img {
+            width: 100%;
+            background-image: url("../assets/img/Untitled-1-1-1-1-1.png");
+            background-position: center;
+            padding-bottom: 7rem;
+        }
+
+        h2 {
+            font-size: 2.8rem;
+            font-weight: 200;
+        }
+
+        h3 {
+            font-size: 1rem;
+            font-weight: 300;
+            padding-block: 2rem;
+        }
+
+        .btn {
+            font-weight: 600;
+        }
+
+        a {
+            font-size: 0.7rem;
+            display: inline-block;
+            background-color:$color_cube6;
+            color: $color_cube1;
+            text-transform: uppercase;
+            padding: 1rem 1.4rem;
+            border-radius: 30px;
+            transition: all 1000ms;
+
+            // Hover Effect
+            &:hover {
+                background-color: $color_cube10;
+                border: none;
+                transform: scale(1.1);
+            }
+        }
     }
 
-    h2 {
-        font-size: 2.8rem;
-        font-weight: 200;
-    }
+    .col-right {
+        width: 40%;
+        position: relative;
+        
+        .bg-img {
+            width: 30rem;
+        }
 
-    h3 {
-        font-size: 1rem;
-        font-weight: 300;
-        padding-block: 2rem;
-    }
+        .book1-img {
+            width: 9rem;
+            position: absolute;
+            top: 90px;
+            right: -97px;
+        }
 
-    .btn {
-        font-weight: 600;
-    }
+        .moon-img {
+            width: 3.5rem;
+            filter: grayscale(80%);
+            position: absolute;
+            top: 92px;
+            right: 204px;
+        }
 
-    a {
-        font-size: 0.7rem;
-        display: inline-block;
-        background-color:$color_cube6;
-        color: $color_cube1;
-        text-transform: uppercase;
-        padding: 1rem 1.4rem;
-        border-radius: 30px;
-        transition: all 1000ms;
+        .bubblespeech-img {
+            width: 3.5rem;
+            position: absolute;
+            top: 52px;
+            right: -95px;
+        }
 
-    // Hover Effect
-    &:hover {
-        background-color: $color_cube10;
-        border: none;
-        transform: scale(1.1);
-    }
+        .book2-img {
+            width: 11.5rem;
+            position: absolute;
+            bottom: 44px;
+            right: -15px;
+        }
+
+        .magnifier-img {
+            width: 3.8rem;
+            position: absolute;
+            bottom: 95px;
+            right: -84px;
+        }
     }
 }
 
-.col-right {
-    width: 40%;
-    position: relative;
-    
-    .bg-img {
-        width: 30rem;
-    }
-
-    .book1-img {
-        width: 9rem;
-        position: absolute;
-        top: 90px;
-        right: -97px;
-    }
-
-    .moon-img {
-        width: 3.5rem;
-        filter: grayscale(80%);
-        position: absolute;
-        top: 92px;
-        right: 204px;
-    }
-
-    .bubblespeech-img {
-        width: 3.5rem;
-        position: absolute;
-        top: 52px;
-        right: -95px;
-    }
-
-    .book2-img {
-        width: 11.5rem;
-        position: absolute;
-        bottom: 44px;
-        right: -15px;
-    }
-
-    .magnifier-img {
-        width: 3.8rem;
-        position: absolute;
-        bottom: 95px;
-        right: -84px;
-    }
-}
-}
-
-.benefits {
+.advantages {
     display: flex;
     justify-content: space-between;
     padding-block: 4rem;
 
-    .col-benefits {
+    .col-advantages {
         width: calc((100% / 3) - 1.5rem);
         background-color:$material_design6;
         margin: 0.6rem;
@@ -249,10 +251,10 @@ export default {
             padding-block: 1.5rem;
         }
 
-        .text-benefits {
+        .text-advantages {
             font-size: 0.6rem;
             color:$median_cut6;
         }
     }
-  }
+}
 </style>
