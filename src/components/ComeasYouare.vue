@@ -7,32 +7,32 @@
 
                     <!-- Title -->
                     <h3>
-                    Come as you are
+                        Come as you are
                     </h3>
 
                     <!-- Text -->
                     <p class="text">
-                    MasterStudy used is an excellent workshop whether you come <br>
-                    as a counselor, advisor, administrator, or faculty member. I am <br>
-                    going home empowered. I am looking forward to attending <br>
-                    the On Course MasterStudy and the MAsterStudy National <br>
-                    COnference next year and facilitating the use of this excellent <br>
-                    retention/student success course at my college.
+                        MasterStudy used is an excellent workshop whether you come <br>
+                        as a counselor, advisor, administrator, or faculty member. I am <br>
+                        going home empowered. I am looking forward to attending <br>
+                        the On Course MasterStudy and the MAsterStudy National <br>
+                        COnference next year and facilitating the use of this excellent <br>
+                        retention/student success course at my college.
                     </p>
 
                     <!-- Sign -->
                     <div class="sign">
-                    Tim Sab
+                        Tim Sab
                     </div>
 
                     <!-- Role -->
                     <div class="role">
-                    General Developer, Stylemix Themes
+                        General Developer, Stylemix Themes
                     </div>
 
                     <!-- Caret Right Icon (graphic element on right side div) -->
                     <div class="caret-right">
-                    <i class="fa-solid fa-caret-right"></i>
+                        <i class="fa-solid fa-caret-right"></i>
                     </div>
                 </div>
             </div>
