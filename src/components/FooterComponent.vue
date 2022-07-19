@@ -17,7 +17,7 @@
           <p class="text">
 
             <!-- Link -->
-            <a href="/">
+            <a href="#">
               Masterstudy
             </a>
 
@@ -27,7 +27,7 @@
             Developed by
 
             <!-- Link -->
-            <a href="/">
+            <a href="#">
               StylemixThemes.
             </a>
           </p>
