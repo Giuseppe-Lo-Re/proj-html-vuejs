@@ -94,8 +94,9 @@
 
           <div class="ul-wrapper">
 
-            <!-- V-for links via props from data "footerLinks1" -->
+            
             <ul>
+              <!-- V-for links via props from data "footerLinks1" -->
               <li 
                 v-for="(link, index) in links1"
                 :key= "index"
@@ -108,8 +109,9 @@
               </li>
             </ul>
 
-            <!-- V-for links via props from data "footerLinks2" -->
+            
             <ul>
+              <!-- V-for links via props from data "footerLinks2" -->
               <li 
                 v-for="(link, index) in links2"
                 :key= "index"

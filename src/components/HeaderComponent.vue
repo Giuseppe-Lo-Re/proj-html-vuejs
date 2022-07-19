@@ -123,9 +123,8 @@
                             sign up
                         </a>
 
+                        <!-- Bookmark Icon -->
                         <div class="bookmark">
-
-                            <!-- Bookmark Icon -->
                             <i class="fa-regular fa-bookmark fa-xl"></i>
                         </div>
                     </div>
@@ -239,6 +238,7 @@ header {
         }
 
         .form {
+
             input {
                 display: inline;
                 font-size: 0.7rem;
