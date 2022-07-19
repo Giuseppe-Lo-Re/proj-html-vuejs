@@ -97,7 +97,7 @@ background-color: $color_cube2;
 
             input {
                 display: inline;
-                color: $median_cut2;
+                color: $median_cut6;
                 font-size: 0.75rem;
                 padding: 0.5rem;
                 width: 21.5rem;

@@ -242,6 +242,7 @@ header {
 
             input {
                 display: inline;
+                color: $median_cut6;
                 font-size: 0.7rem;
                 padding: 0.8rem;
                 width: 21.5rem;
